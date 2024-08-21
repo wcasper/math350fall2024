@@ -21,7 +21,7 @@ title: Math 350 Advanced Calculus
 
 **First steps**
 
-Please familiarize yourself with the syllabus and the Canvas site for this course, starting with the [Orientation Module (link)](https://csufullerton.instructure.com/courses/3344572/modules/8051367).
+Please familiarize yourself with the syllabus and the Canvas site for this course, starting with the [Orientation Module (link)](https://csufullerton.instructure.com/courses/3457313/modules/9061521).
 
 Please reach out as soon as possible if you have any questions or concerns.
 
