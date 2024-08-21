@@ -27,11 +27,11 @@ My research focuses on applications of algebra and algebraic geometry to various
 
 ### My Publications (as of 2024)
 
-* [The Pascal Matrix, Commuting Tridiagonal Operators and Fourier Algebras] (https://arxiv.org/abs/2407.21680) <br/> (submitted)
-* [The restricted discrete Fourier transform] (https://arxiv.org/abs/2407.20379) <br/> (submitted)
-* [Disconnected Cliques in Derangement Graphs] (https://arxiv.org/abs/2407.14155) <br/> (submitted)
-* [A Burchnall-Chaundy-Krichever Theory for Fractional Differential Operators] (https://arxiv.org/abs/2108.12010) <br/> (submitted)
-* [Matrix valued discrete-continuous functions with the prolate spheroidal property] (https://arxiv.org/abs/2302.05750) <br/> Communications in Math. Phys.
+* [The Pascal Matrix, Commuting Tridiagonal Operators and Fourier Algebras](https://arxiv.org/abs/2407.21680) <br/> (submitted)
+* [The restricted discrete Fourier transform](https://arxiv.org/abs/2407.20379) <br/> (submitted)
+* [Disconnected Cliques in Derangement Graphs](https://arxiv.org/abs/2407.14155) <br/> (submitted)
+* [A Burchnall-Chaundy-Krichever Theory for Fractional Differential Operators](https://arxiv.org/abs/2108.12010) <br/> (submitted)
+* [Matrix valued discrete-continuous functions with the prolate spheroidal property](https://arxiv.org/abs/2302.05750) <br/> Communications in Math. Phys.
 * [The matrix Bochner problem](https://arxiv.org/abs/1803.04405) <br/> American J. Mathematics (2022)
 * [Reflective prolate-spheroidal operators and the adelic Grassmannian](https://arxiv.org/abs/2003.11616) <br/> Communications in Pure and Applied Mathematics (2022)
 * [Algebras of commuting differential operators for integral kernels of Airy type](https://arxiv.org/abs/2112.11639) <br/> Operator Theory: Advances and Applications (2022)
