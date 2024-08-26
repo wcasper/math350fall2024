@@ -122,7 +122,139 @@
 
 \section{Real Analysis Lecture 2}
 
-\subsection{Irrational numbers}
+\subsection{Types of real numbers}
+\begin{frame}{Real numbers}
+The \textbf{real numbers} are the unique field $\mathbb{R}$ satisfying Axiom 1-Axiom 9, plus an extra axiom called the completeness axiom.
+$$\mathbb{R} = \text{the one and only complete, ordered field}$$
+A complete ordered field $F$ satisfies
+\begin{enumerate}[\text{A}1]
+\setcounter{enumi}{5}
+\pause
+\item \textbf{completeness axiom}: every bounded set of numbers $S\subseteq F$ has a supremum $\sup(S)$
+\end{enumerate}
+\begin{itemize}
+\pause
+\item Understanding what this is challenging, but will be fundamental to the entire course!
+\pause
+\item Intuitively, it represents the fact that the real line has no holes or gaps.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Real intervals}
+Given an ordered field, we can \textbf{intervals}
+\begin{itemize}
+{\small
+\pause
+\item \textbf{open and closed intervals}
+$$(a,b) = \{x\in \mathbb{R}: a < x < b\}
+\quad\text{and}\quad
+[a,b] = \{x\in \mathbb{R}: a \leq x \leq b\}$$
+\pause
+\item \textbf{half-open intervals}
+$$
+[a,b) = \{x\in \mathbb{R}: a \leq x < b\}
+\quad\text{and}\quad
+(a,b] = \{x\in \mathbb{R}: a < x \leq b\}
+$$
+\pause
+\item \textbf{semi-infinite open intervals}
+$$
+(-\infty, a) = \{x\in\mathbb{R}: x < a\}
+\quad\text{and}\quad
+(a, \infty)  = \{x\in\mathbb{R}: a < x\}$$
+\pause
+\item \textbf{semi-infinite closed intervals}
+$$
+(-\infty, a] = \{x\in\mathbb{R}: x \leq a\}
+\quad\text{and}\quad
+[a, \infty)  = \{x\in\mathbb{R}: a \leq x\}.$$
+}
+\end{itemize}
+\end{frame}
+
+\subsection{Integers}
+
+\begin{frame}{Inductive sets}
+A subset $S$ of $\mathbb{R}$ is called a \vocab{inductive set} if
+\begin{itemize}
+\item $1\in S$
+\item if $x\in S$ then $x+1\in S$ 
+\end{itemize}
+\pause
+Examples:
+$$\mathbb{R},\quad\mathbb{Q},\quad(0,\infty),\quad\mathbb{Z},\quad\mathbb{N},\dots$$
+\end{frame}
+
+\begin{frame}{Integers and rationals}
+How do we reverse-engineer the integers from the reals?
+\begin{itemize}
+\pause
+\item the set of \textbf{positive integers} is
+$$\mathbb{Z}_+ = \{x: \text{$x$ belongs to every inductive set}\}$$
+\pause
+\item integers are
+$$\mathbb{Z} = \{x: \text{$x$ is zero or $\pm x$ is a positive integer}\}$$
+\pause
+\item rationals are
+$$\mathbb{Q} = \{a/b: a,b\in\mathbb{Z},\ b\neq 0\}.$$
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Induction}
+\textbf{Principle of Induction:}
+$$\text{If $S$ is an inductive set, then $\mathbb{Z}_+\subseteq S$}$$
+\pause
+\begin{quest}
+Waaaaait...How is this this induction?!
+\end{quest}
+\pause
+\textbf{Example:} Let's prove $n(n+1)$ is divisible by $2$ for all positive integers $n$, using the Principle of Induction.\\
+\pause
+\textbf{Proof:}\\
+\pause
+Let
+$$S = \{n\in\mathbb{Z}_+: 2 | n(n+1)\}$$.
+\pause
+We see that $1\in S$ because $2$ divides $1(1+1)$.\\
+\pause
+Now suppose $x\in S$.  (This is our usual inductive assumption).\\
+\end{frame}
+\begin{frame}{Induction}
+\textbf{Example:} Let's prove $n(n+1)$ is divisible by $2$ for all positive integers $n$, using the Principle of Induction.\\
+\textbf{Proof continued:}\\
+\pause
+Then $2$ divides $x(x+1)$, so $x(x+1) = 2k$ for some integer $k$.\\
+\pause
+This means $(x+1)(x+2) = x(x+1) + 2(x+1) = 2(k+x+1)$.\\
+\pause
+Thus $2$ divides $(x+1)(x+2)$, showing that $x+1\in S$.\\
+\pause
+Since $x+1$ was arbitrary, this shows that $S$ is an inductive set.\\
+\pause
+By the Principle of Induction, this means $\mathbb{Z}_+\subseteq S$.\\
+\pause
+In other words $n\in S$ for every positive integer $n$.\\
+\pause
+Hence $2$ divides $n(n+1)$ for every positive integers $n$.
+\end{frame}
+
+
+\begin{frame}{Prime numbers}
+A positive integer $p$ is \textbf{prime} if its only positive divisors are $1$ and $p$.
+\begin{thm}[Apostol Theorem 1.5]
+Every integer is prime or a product of primes
+\end{thm}
+\begin{thm}[Apostol Theorem 1.8]
+If $p$ is prime and $p$ divides $ab$, then $p$ divides $a$ or $p$ divides $b$.
+\end{thm}
+\begin{thm}[Fundamental Theorem of Arithmetic (Apostol Theorem 1.9)]
+Every integer $n > 1$ has a unique factorization as a product of primes, up to reordering.
+\end{thm}
+
+\end{frame}
+
+
 \begin{frame}{Types of numbers}
 \begin{center}
 \includegraphics[width=0.8\linewidth]{fig/numbers}
