@@ -109,9 +109,9 @@ If you have an accommodation from Disability Support Services (such as time-and-
 There will be three midterm exams, each lasting 1 hour.
 Each midterm will be worth 15\% of your final grade.
 Midterms will be held during class time on the following dates:
-* Wednesday, September 23, 2024
-* Wednesday, October 21, 2024
-* Wednesday, November 18, 2024
+* Wednesday, September 25, 2024
+* Wednesday, October 23, 2024
+* Wednesday, November 20, 2024
 
 **Final Exam**
 The final exam will be cumulative and will account for 30\% of your grade.
