@@ -16,7 +16,7 @@ Apostol pp. 1-6
 
 ### Slides
 
-* [Link to slides](/slides/lec01/lec01.pdf)
+* [Link to slides](math350fall2024/slides/lec01/lec01.pdf)
 
 
 
