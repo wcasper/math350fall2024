@@ -69,5 +69,7 @@ collections:
     output: true
   exams:
     output: true
+  slides:
+    output: true
 
 
