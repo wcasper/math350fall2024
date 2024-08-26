@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex 2024.5.11)  25 AUG 2024 23:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex 2024.5.11)  26 AUG 2024 14:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -986,17 +986,17 @@ Dictionary: translator-theorem-dictionary, Language: English
 ] (./lec01.toc) [3
 
 ]
-<fig/ishango.jpeg, id=171, 338.26375pt x 150.5625pt>
+<fig/ishango.jpeg, id=161, 338.26375pt x 150.5625pt>
 File: fig/ishango.jpeg Graphic file (type jpg)
 <use fig/ishango.jpeg>
 Package pdftex.def Info: fig/ishango.jpeg  used on input line 134.
 (pdftex.def)             Requested size: 142.26378pt x 63.3231pt.
-<fig/sumerian.png, id=172, 293.095pt x 173.64874pt>
+<fig/sumerian.png, id=162, 293.095pt x 173.64874pt>
 File: fig/sumerian.png Graphic file (type png)
 <use fig/sumerian.png>
 Package pdftex.def Info: fig/sumerian.png  used on input line 134.
 (pdftex.def)             Requested size: 142.26378pt x 84.28577pt.
-<fig/egyptian.png, id=173, 441.65pt x 114.4275pt>
+<fig/egyptian.png, id=163, 441.65pt x 114.4275pt>
 File: fig/egyptian.png Graphic file (type png)
 <use fig/egyptian.png>
 Package pdftex.def Info: fig/egyptian.png  used on input line 134.
@@ -1027,7 +1027,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 148.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 148.
-<fig/zeros.jpg, id=211, 642.4pt x 146.5475pt>
+<fig/zeros.jpg, id=199, 642.4pt x 146.5475pt>
 File: fig/zeros.jpg Graphic file (type jpg)
 <use fig/zeros.jpg>
 Package pdftex.def Info: fig/zeros.jpg  used on input line 148.
@@ -1078,7 +1078,7 @@ Package pdftex.def Info: fig/zeros.jpg  used on input line 148.
 ] [16
 
 ]
-<fig/elements.jpg, id=587, 220.825pt x 161.60374pt>
+<fig/elements.jpg, id=561, 220.825pt x 161.60374pt>
 File: fig/elements.jpg Graphic file (type jpg)
 <use fig/elements.jpg>
 Package pdftex.def Info: fig/elements.jpg  used on input line 179.
@@ -1149,73 +1149,73 @@ Package pdftex.def Info: fig/elements.jpg  used on input line 179.
 ] [40
 
 ]
-Overfull \vbox (10.57732pt too high) detected at line 258
+Overfull \vbox (2.92848pt too high) detected at line 258
  []
 
 [41
 
 ]
-Overfull \vbox (10.57732pt too high) detected at line 258
+Overfull \vbox (2.92848pt too high) detected at line 258
  []
 
 [42
 
 ]
-Overfull \vbox (10.57732pt too high) detected at line 258
+Overfull \vbox (2.92848pt too high) detected at line 258
  []
 
 [43
 
 ]
-Overfull \vbox (10.57732pt too high) detected at line 258
+Overfull \vbox (2.92848pt too high) detected at line 258
  []
 
 [44
 
 ]
-Overfull \vbox (10.57732pt too high) detected at line 258
+Overfull \vbox (2.92848pt too high) detected at line 258
  []
 
 [45
 
 ]
-Overfull \vbox (10.57732pt too high) detected at line 258
+Overfull \vbox (2.92848pt too high) detected at line 258
  []
 
 [46
 
 ]
-Overfull \vbox (10.89491pt too high) detected at line 278
+Overfull \vbox (3.24608pt too high) detected at line 278
  []
 
 [47
 
 ]
-Overfull \vbox (10.89491pt too high) detected at line 278
+Overfull \vbox (3.24608pt too high) detected at line 278
  []
 
 [48
 
 ]
-Overfull \vbox (10.89491pt too high) detected at line 278
+Overfull \vbox (3.24608pt too high) detected at line 278
  []
 
 [49
 
 ]
-Overfull \vbox (10.89491pt too high) detected at line 278
+Overfull \vbox (3.24608pt too high) detected at line 278
  []
 
 [50
 
 ]
-Overfull \vbox (10.89491pt too high) detected at line 278
+Overfull \vbox (3.24608pt too high) detected at line 278
  []
 
 [51
 
 ]
-Overfull \vbox (10.89491pt too high) detected at line 278
+Overfull \vbox (3.24608pt too high) detected at line 278
  []
 
 [52
@@ -1273,80 +1273,6 @@ Overfull \vbox (10.89491pt too high) detected at line 278
 
 ] [78
 
-] [79
-
-] [80
-
-] [81
-
-]
-[82
-
-]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 421.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 421.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 421.
- [83
-
-] [84
-
-] [85
-
-] [86
-
-] [87
-
-] (./lec01.toc) [88
-
-] [89
-
-] [90
-
-] [91
-
-] [92
-
-] [93
-
-]
-[94
-
-] [95
-
-] [96
-
-] [97
-
-] [98
-
-] [99
-
-] [100
-
-] [101
-
-] [102
-
-] [103
-
-] [104
-
-] [105
-
-] [106
-
-]
-[107
-
-] [108
-
-] [109
-
-] [110
-
 ]
 \tf@nav=\write6
 \openout6 = `lec01.nav'.
@@ -1359,28 +1285,27 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
 
  (./lec01.aux)
 Package rerunfilecheck Info: File `lec01.out' has not changed.
-(rerunfilecheck)             Checksum: A62B083EF3F77E7D3A351CF22E968A02;638.
+(rerunfilecheck)             Checksum: BF1A5C72B360CA6AA84B14881118010A;540.
  ) 
 Here is how much of TeX's memory you used:
- 22432 strings out of 480954
- 409801 string characters out of 5908242
- 760952 words of memory out of 5000000
- 38906 multiletter control sequences out of 15000+600000
- 451539 words of font info for 89 fonts, out of 8000000 for 9000
+ 22292 strings out of 480954
+ 407575 string characters out of 5908242
+ 753781 words of memory out of 5000000
+ 38839 multiletter control sequences out of 15000+600000
+ 432734 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  131i,19n,132p,437b,670s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/t
-exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type
-1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro
-8a.pfb>
-Output written on lec01.pdf (110 pages, 500590 bytes).
+cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pf
+b></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-
+dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw
+/helvetic/uhvro8a.pfb>
+Output written on lec01.pdf (78 pages, 390128 bytes).
 PDF statistics:
- 4310 PDF objects out of 5155 (max. 8388607)
- 3639 compressed objects within 37 object streams
- 225 named destinations out of 1000 (max. 500000)
- 2320 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3067 PDF objects out of 3580 (max. 8388607)
+ 2551 compressed objects within 26 object streams
+ 160 named destinations out of 1000 (max. 500000)
+ 1988 words of extra memory for PDF output out of 10000 (max. 10000000)
 
