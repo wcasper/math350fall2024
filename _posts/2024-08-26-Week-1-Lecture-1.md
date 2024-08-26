@@ -16,7 +16,7 @@ Apostol pp. 1-6
 
 ### Slides
 
-* [/slides/lec01/lec01.pdf](Link to slides)
+* [Link to slides](/slides/lec01/lec01.pdf)
 
 
 
