@@ -14,7 +14,9 @@ Apsotol problems 1.1-1.6
 ### Reading assignment
 Apostol pp. 1-6
 
+### Slides
 
+* [/slides/lec01/lec01.pdf](Link to slides)
 
 
 
