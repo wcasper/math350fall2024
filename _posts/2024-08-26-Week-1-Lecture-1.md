@@ -6,7 +6,7 @@ title:  Lecture 1
 ## Properies of real numbers
 
 ### Key words
-integers, rational numbers, real numbers, irrational numbers, field axioms, order axioms, open interval, closed interval, half-open interval, inductive set, principle of induction 
+integers, rational numbers, real numbers, irrational numbers, field axioms, order axioms
 
 ### Practice problems
 Apsotol problems 1.1-1.6
