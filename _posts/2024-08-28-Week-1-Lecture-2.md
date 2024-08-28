@@ -13,4 +13,9 @@ Apsotol problems 1.7-1.22
 * Apostol pp. 7-12
 
 
+### Slides
+
+* [Link to slides](http://wcasper.github.io/math350fall2024/slides/lec02/lec02.pdf)
+
+
 
