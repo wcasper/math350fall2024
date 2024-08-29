@@ -4,7 +4,7 @@ title:  Lecture 2
 ---
 
 ## Topics
-completeness axiom, open interval, closed interval, half-open interval, inductive set, principle of induction, irrational numbers, upper and lower bounds, minimum and maximum element, infimum and supremum, Archimedian property of real numbers, decimal expansions
+completeness axiom, open interval, closed interval, half-open interval, inductive set, principle of induction, irrational numbers, upper bounds, maximum element, supremum
 
 ### Practice problems
 Apsotol problems 1.7-1.22

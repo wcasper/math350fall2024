@@ -4,9 +4,7 @@ title:  Lecture 3
 ---
 
 ## Topics
-* sets
-* ordered pairs and Cartesian products
-* relations and functions
+upper and lower bounds, minimum and maximum element, infimum and supremum, Archimedian property of real numbers, decimal expansions, sets, ordered pairs and Cartesian products, relations and functions
 
 ## Reading assignment
 * Apostol pp. 13-15 (ignore complex numbers)
