@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  4 SEP 2024 11:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  4 SEP 2024 12:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1228,7 +1228,7 @@ Package rerunfilecheck Info: File `lec03.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  23653 strings out of 476182
- 453612 string characters out of 5796232
+ 453618 string characters out of 5796232
  1983975 words of memory out of 5000000
  44944 multiletter control sequences out of 15000+600000
  604434 words of font info for 98 fonts, out of 8000000 for 9000
@@ -1243,7 +1243,7 @@ msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
 xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1
 /urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8
 a.pfb>
-Output written on lec03.pdf (97 pages, 466588 bytes).
+Output written on lec03.pdf (97 pages, 466598 bytes).
 PDF statistics:
  4092 PDF objects out of 4296 (max. 8388607)
  3338 compressed objects within 34 object streams
