@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  4 SEP 2024 12:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  4 SEP 2024 13:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1059,155 +1059,6 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 
 ] [65
 
-] (./lec03.toc)
-[66
-
-] [67
-
-] [68
-
-] [69
-
-] [70
-
-]
-Overfull \vbox (11.82655pt too high) detected at line 359
- []
-
-[71
-
-]
-Overfull \vbox (11.82655pt too high) detected at line 359
- []
-
-[72
-
-]
-Overfull \vbox (11.82655pt too high) detected at line 359
- []
-
-[73
-
-]
-Overfull \vbox (11.82655pt too high) detected at line 359
- []
-
-[74
-
-]
-Overfull \vbox (11.82655pt too high) detected at line 359
- []
-
-[75
-
-]
-Overfull \vbox (11.82655pt too high) detected at line 359
- []
-
-[76
-
-]
-Overfull \vbox (7.8109pt too high) detected at line 381
- []
-
-[77
-
-]
-Overfull \vbox (7.8109pt too high) detected at line 381
- []
-
-[78
-
-]
-Overfull \vbox (7.8109pt too high) detected at line 381
- []
-
-[79
-
-]
-Overfull \vbox (7.8109pt too high) detected at line 381
- []
-
-[80
-
-]
-Overfull \vbox (7.8109pt too high) detected at line 381
- []
-
-[81
-
-]
-Overfull \vbox (7.8109pt too high) detected at line 381
- []
-
-[82
-
-]
-Overfull \vbox (7.8109pt too high) detected at line 381
- []
-
-[83
-
-] (./lec03.toc) [84
-
-] [85
-
-]
-Overfull \vbox (1.37395pt too high) detected at line 413
- []
-
-[86
-
-]
-Overfull \vbox (1.37395pt too high) detected at line 413
- []
-
-[87
-
-]
-Overfull \vbox (1.37395pt too high) detected at line 413
- []
-
-[88
-
-]
-Overfull \vbox (1.37395pt too high) detected at line 413
- []
-
-[89
-
-]
-Overfull \vbox (1.37395pt too high) detected at line 413
- []
-
-[90
-
-]
-Overfull \vbox (22.73412pt too high) detected at line 435
- []
-
-[91
-
-]
-Overfull \vbox (22.73412pt too high) detected at line 435
- []
-
-[92
-
-]
-Overfull \vbox (22.73412pt too high) detected at line 435
- []
-
-[93
-
-] [94
-
-] [95
-
-] [96
-
-] [97
-
 ]
 \tf@nav=\write6
 \openout6 = `lec03.nav'.
@@ -1224,13 +1075,13 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `lec03.out' has not changed.
-(rerunfilecheck)             Checksum: 93F16CE2CB6D876AC8A16E63FB871FC7;650.
+(rerunfilecheck)             Checksum: 9AC8B8BF89FFAE7FD34AC7FD1C349527;320.
  ) 
 Here is how much of TeX's memory you used:
- 23653 strings out of 476182
- 453618 string characters out of 5796232
- 1983975 words of memory out of 5000000
- 44944 multiletter control sequences out of 15000+600000
+ 23481 strings out of 476182
+ 449659 string characters out of 5796232
+ 1973975 words of memory out of 5000000
+ 44842 multiletter control sequences out of 15000+600000
  604434 words of font info for 98 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,19n,123p,408b,681s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1243,10 +1094,10 @@ msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
 xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1
 /urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8
 a.pfb>
-Output written on lec03.pdf (97 pages, 466598 bytes).
+Output written on lec03.pdf (65 pages, 326519 bytes).
 PDF statistics:
- 4092 PDF objects out of 4296 (max. 8388607)
- 3338 compressed objects within 34 object streams
- 199 named destinations out of 1000 (max. 500000)
- 2859 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2578 PDF objects out of 2984 (max. 8388607)
+ 2109 compressed objects within 22 object streams
+ 133 named destinations out of 1000 (max. 500000)
+ 1913 words of extra memory for PDF output out of 10000 (max. 10000000)
 
