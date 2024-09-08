@@ -1,0 +1,515 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This file is a template using the "beamer" package to create slides for a talk or presentation
+% - Giving a talk on some subject.
+% - The talk is between 15min and 45min long.
+% - Style is ornate.
+
+% MODIFIED by Jonathan Kew, 2008-07-06
+% The header comments and encoding in this file were modified for inclusion with TeXworks.
+% The content is otherwise unchanged from the original distributed with the beamer package.
+
+\documentclass{beamer}
+\setbeamercovered{invisible}
+
+
+
+% Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+%
+% In principle, this file can be redistributed and/or modified under
+% the terms of the GNU Public License, version 2.
+%
+% However, this file is supposed to be a template to be modified
+% for your own needs. For this reason, if you use this file as a
+% template and not specifically distribute it as part of a another
+% package/program, I grant the extra permission to freely copy and
+% modify this file as you see fit and even to delete this copyright
+% notice. 
+
+
+\mode<presentation>
+{
+  \usetheme{Warsaw}
+  % or ...
+
+  % or whatever (possibly just delete it)
+}
+
+
+\usepackage[english]{babel}
+% or whatever
+
+\usepackage[utf8]{inputenc}
+% or whatever
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+%%% MATH RELATED
+
+\input{macros.tex}
+
+\title{MATH 350-2 Advanced Calculus} 
+\subtitle
+{} % (optional)
+
+\author[W.R. Casper] % (optional, use only with lots of authors)
+{W.R. Casper}
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[California State University Fullerton] % (optional, but mostly needed)
+{
+  Department of Mathematics\\
+  California State University Fullerton}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\subject{Talks}
+% This is only inserted into the PDF information catalog. Can be left
+% out. 
+
+
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+% \pgfdeclareimage[height=0.5cm]{university-logo}{university-logo-filename}
+% \logo{\pgfuseimage{university-logo}}
+
+
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+\AtBeginSubsection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command: 
+
+%\beamerdefaultoverlayspecification{<+->}
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+  % You might wish to add the option [pausesections]
+\end{frame}
+
+% Since this a solution template for a generic talk, very little can
+% be said about how it should be structured. However, the talk length
+% of between 15min and 45min and the theme suggest that you stick to
+% the following rules:  
+
+% - Exactly two or three sections (other than the summary).
+% - At *most* three subsections per section.
+% - Talk about 30s to 2min per frame. So there should be between about
+%   15 and 30 frames, all told.
+
+\section{Real Analysis Lecture 3}
+
+\subsection{Decimal expansions}
+
+\begin{frame}{Decimal approximations}
+A \textbf{finite decimal expansion} is an expression
+$$r = a_0 + \frac{a_1}{10} + \frac{a_2}{100} + \frac{a_3}{10^3} + \dots + \frac{a_n}{10^n},$$
+where $a_0\in\mathbb Z_+$ and $0\leq a_k\leq 9$ for $1\leq k\leq n$.\\
+\pause
+\textbf{Notation:}
+$$a_0.a_1a_2a_3\dots a_n.$$
+\pause
+Any positive real number $x>0$ can be approximated by a finite decimal expansion.
+\end{frame}
+
+\begin{frame}{Decimal approximations}
+\begin{thm}[Apostol Theorem 1.20]
+For any real $x > 0$ and $n\in \mathbb{Z}_+$, there exists a finite decimal expansion $r_n=a_0.a_1a_2\dots a_n$ with
+$$r_n \leq x < r_n + \frac{1}{10^n}.$$
+\end{thm}
+\end{frame}
+
+\begin{frame}{Decimal approximations}
+\begin{proof}
+Consider the set
+$$A = \{a\in\mathbb{Z}: a\leq x\}.$$
+\pause
+The set $A$ is a set of integers which is bounded above by $x$, so it has a maximum $a_0$. \\
+\pause
+Then clearly $x_1 = a-a_0\in [0,1)$. \\
+\pause
+Define $a_1,a_2,a_3,\dots$ and $x_1,x_2,x_3,\dots$ recursively by
+$$a_k = \max\{a\in\mathbb{Z}_+: a\leq 10x_{k}\}$$
+and $x_{k+1}=10x_k-a_k$.
+\pause
+Then $0\leq a_k \leq 9$ for all $k\geq 1$ 
+\pause
+and 
+$$a_0 + \frac{a_1}{10} + \frac{a_2}{100} + \dots + \frac{a_n}{10^n}
+\leq x < a_0 + \frac{a_1}{10} + \frac{a_2}{100} + \dots + \frac{a_n+1}{10^n}
+$$
+\end{proof}
+\end{frame}
+
+\begin{frame}{Decimal expansions}
+We say that $x>0$ has the decimal expansion $a_0.a_1a_2a_3\dots$ and write
+$$x = a_0.a_1a_2a_3a_4\dots$$
+\pause
+if for all $n\in\mathbb{Z}_+$,
+$$a_0 + \frac{a_1}{10} + \frac{a_2}{100} + \dots + \frac{a_n}{10^n}
+\leq x < a_0 + \frac{a_1}{10} + \frac{a_2}{100} + \dots + \frac{a_n+1}{10^n}.
+$$
+\pause
+Note: this is slightly different than the usual limit meaning, for two good reasons:
+\begin{enumerate}
+\pause
+\item we haven't defined limits
+\pause
+\item with this definition, numbers have unique decimal expansions!
+\pause
+$$1\neq 0.999999999\dots$$
+\pause
+$$1 \nless 0 + \frac{9}{10} + \frac{9}{100} + \dots + \frac{9+1}{10^n} = 1.$$
+\end{enumerate}
+\end{frame}
+
+\subsection{The Triangle Inequality}
+
+\begin{frame}{Absolute value}
+The \textbf{absolute value} of $x\in \mathbb{R}$ is
+$$\lvert x \rvert = \left\lbrace\begin{array}{cc}
+ x,& x \geq 0\\
+-x,& x < 0
+\end{array}\right.$$
+In particular,
+$$0\leq \lvert x\rvert$$
+and also
+$$-\lvert x\rvert\leq x \leq \lvert x\rvert.$$
+\end{frame}
+
+\begin{frame}{Challenge!}
+\begin{prob}
+Prove Apostol Theorem 1.21 that if $a\geq 0$, then $\lvert x\rvert \leq a$ if and only if $-a\leq x\leq a$.
+\end{prob}
+\begin{soln}
+If $\lvert x\rvert \leq a$ then $-a\leq -\lvert x\rvert$
+\pause 
+and therefore
+$$-a\leq -\lvert x\rvert \leq x\leq \lvert x\rvert\leq a$$.
+\pause 
+Conversely, if $-a\leq x\leq a$ then
+\pause 
+$$x\geq 0\Rightarrow \lvert x\rvert = x\leq a$$
+\pause 
+$$x\leq 0\Rightarrow \lvert x\rvert = -x\leq -(-a) = a$$
+\end{soln}
+\end{frame}
+
+\begin{frame}{Basic triangle inequality}
+\begin{thm}[Triangle inequality]
+For any real numbers $x,y\in\mathbb{R}$ we have
+$$\lvert x+y\rvert\leq \lvert x \rvert + \lvert y\rvert.$$
+\end{thm}
+\begin{proof}
+$$
+-\lvert x \rvert \leq x\leq \lvert x\rvert
+\quad\text{and}\quad
+-\lvert y \rvert \leq y\leq \lvert y\rvert
+$$
+\pause
+Adding these together, we get
+$$
+-(\lvert x \rvert + \lvert y \rvert) \leq x + y\leq \lvert x\rvert + \lvert y\rvert
+$$
+\pause
+It follows from the previous theorem that
+$$\lvert x + y\rvert \leq \lvert x\rvert + \lvert y\rvert$$
+\end{proof}
+\end{frame}
+
+\begin{frame}{Advanced triangle inequality}
+\begin{thm}[Triangle inequality]
+For any real numbers $x_1,x_2,\dots,x_n\in\mathbb{R}$ we have
+$$\lvert x_1+x_2+\dots+x_n\rvert\leq \lvert x_1 \rvert + \lvert x_2\rvert +  \dots + \lvert x_n\rvert.$$
+\end{thm}
+\pause
+\begin{proof}
+Induction.
+\end{proof}
+\end{frame}
+
+\begin{frame}{Higher-dimensional triangle inequality}
+\begin{thm}[Cauchy-Schwartz Inequality (Apostol Theorem 1.23)]
+If $x_1,\dots,x_n$ and $y_1,\dots, y_n$ are real numbers, then
+$$\left(\sum_{k=1}^n x_ky_k\right)^2\leq \left(\sum_{k=1}^n x_k^2\right)\left(\sum_{k=1}^n y_k^2\right)$$
+If $y_k$ isn't always zero, then equality holds if and only if there exists $t\in\mathbb{R}$ with $x_k = ty_k$ for all $k$.
+\end{thm}
+\pause
+Vector version:
+$$(\vec x\cdot\vec y)^2 \leq \lvert \vec x\rvert^2\lvert \vec y\rvert^2.$$
+\end{frame}
+
+\begin{frame}{Higher-dimensional triangle inequality}
+\begin{proof}
+$$\sum_{k=1}^n (x_k + ty_k)^2\geq 0,\quad \text{with equality iff all terms zero}$$
+$$\sum_{k=1}^n x_k^2 + 2t\sum_{k=1}^n x_ky_k + t^2\sum_{k=1}^ny_k^2\geq 0$$
+Take $t = -\left(\sum_{k=1}^n x_ky_k\right)/\left(\sum_{k=1}^ny_k^2\right):$
+$$\sum_{k=1}^n x_k^2 -\frac{ \left(\sum_{k=1}^n x_ky_k\right)^2}{\left(\sum_{k=1}^ny_k^2\right)}\geq 0.$$
+\end{proof}
+\end{frame}
+
+\begin{frame}{Higher-dimensional triangle inequality}
+\begin{thm}[Minkowski inequality]
+For any real numbers $x_1,x_2,\dots,x_n\in\mathbb{R}$ and $y_1,y_2,\dots,y_n\in\mathbb{R}$ we have
+$$\left(\sum_{k=1}^n (x_k+y_k)^2\right)^{1/2}\leq \left(\sum_{k=1}^n x_k^2\right)^{1/2} + \left(\sum_{k=1}^ny_k^2\right)^{1/2}$$
+\end{thm}
+\pause
+Vector version:
+$$\lvert \vec x+\vec y\rvert \leq \lvert \vec x\rvert + \lvert\vec y\rvert.$$
+\pause
+A higher dimensional triangle inequality!
+\end{frame}
+
+\begin{frame}{Higher-dimensional triangle inequality}
+\begin{proof}
+By the triangle inequality:
+{\tiny
+\begin{align*}
+\sum_{k=1}^n (x_k+y_k)^2
+  & \leq \sum_{k=1}^n (|x_k|+|y_k|)|x_k+y_k|\\
+  & =    \sum_{k=1}^n |x_k|\cdot|x_k+y_k| + \sum_{k=1}^n |y_k|\cdot|x_k+y_k|\\
+\end{align*}
+}
+Now applying the Cauchy-Schwartz inequality: 
+{\tiny
+\begin{align*}
+  & \leq \left(\sum_{k=1}^n |x_k|^2\right)^{1/2}\left(\sum_{k=1}^n |x_k+y_k|^2\right)^{1/2}  +  \left(\sum_{k=1}^n |y_k|^2\right)^{1/2}\left(\sum_{k=1}^n |x_k+y_k|^2\right)^{1/2}\\
+  & = \left[\left(\sum_{k=1}^n |x_k|^2\right)^{1/2}  +  \left(\sum_{k=1}^n |y_k|^2\right)^{1/2}\right] \left(\sum_{k=1}^n |x_k+y_k|^2\right)^{1/2}
+\end{align*}
+}
+\end{proof}
+\end{frame}
+
+\subsection{Sets, Relations, Functions}
+
+\begin{frame}{Set basics}
+Intuitively, a \textbf{set} $A$ is a "collection of things" which we call the \textbf{elements} of $A$.
+\begin{itemize}
+\item in practice, this is a bad definition (Russell's Paradox)
+\item true set formulation: Zermelo-Frankel Axioms
+\end{itemize}
+Examples:
+\begin{itemize}
+\item $\mathbb R$, $\mathbb{Z}_+$, $\mathbb{Z}$, $\mathbb{Q}$
+\item $(1,5]$, $(0,\infty)$
+\item empty set $\varnothing$
+\item $\{\heartsuit,\text{Fall}, \{\varnothing\}\}$
+\item $\{n\in \mathbb{Z}: \text{$n$ is prime}\}$
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Everything is a set}
+In the true minimalistic philosophy of mathematics, we want everything to be a set.
+\begin{itemize}
+\item integers
+$$0 = \varnothing, 1 = \{\varnothing\}, 2 = \{\varnothing,\{\varnothing\}\},\dots$$
+\item ordered pairs
+$$(a,b) = \{a,\{a,b\}\}$$
+\item even relations and functions are sets
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Challenge!}
+\begin{prob}
+Prove that for ordered pairs $(a,b)$ and $(c,d)$ that
+$$(a,b)=(c,d)\quad\text{if and only if}\quad a=c\ \text{and}\ b=d$$
+\end{prob}
+\pause
+\begin{soln}
+$(a,b)=(c,d)$ if and only if $\{a,\{a,b\}\}=\{c,\{c,d\}\}$\\
+\pause
+Clearly, if $a=c$ and $b=d$, then $\{a,\{a,b\}\}=\{c,\{c,d\}\}$\\
+\pause
+The tough part is the opposite direction!\\
+\pause
+Suppose $\{a,\{a,b\}\}=\{c,\{c,d\}\}$.\\
+\pause
+Two possible cases:
+\pause
+\begin{align*}
+\text{Case I:}\quad a=c\ \ \text{and}\ \  \{a,b\} = \{c,d\}\\
+\pause
+\text{Case II:}\quad a=\{c,d\}\ \ \text{and}\ \ \{a,b\} = c
+\end{align*}
+\end{soln}
+\end{frame}
+
+\begin{frame}{Challenge!}
+\begin{prob}
+Prove that for ordered pairs $(a,b)$ and $(c,d)$ that
+$$(a,b)=(c,d)\quad\text{if and only if}\quad a=c\ \text{and}\ b=d$$
+\end{prob}
+\begin{soln}
+$$\text{Case I:}\quad a=c\ \ \text{and}\ \  \{a,b\} = \{c,d\}$$
+\pause
+Since $\{a,b\} = \{c,d\}$, we know $b\in \{c,d\}$.\\
+\pause
+Therefore $b=c$ or $b=d$.\\
+If $b=d$, we're done! \pause ... so assume instead that $b=c$\\
+\pause
+Then $a=c$ implies $a=b$.\\
+\pause
+Therefore $\{c,d\} = \{a,b\} = \{a,a\} = \{a\}$.\\
+\pause
+It follows that $d=c=b=a$.
+\end{soln}
+\end{frame}
+
+\begin{frame}{Challenge!}
+\begin{prob}
+Prove that for ordered pairs $(a,b)$ and $(c,d)$ that
+$$(a,b)=(c,d)\quad\text{if and only if}\quad a=c\ \text{and}\ b=d$$
+\end{prob}
+\begin{soln}
+$$\text{Case II:}\quad a=\{c,d\}\ \ \text{and}\ \ \{a,b\} = c$$
+\pause
+This would imply that $c\in a$ and $a\in c$.\\
+\pause
+This can be shown to contradict the ZF Axioms of Set Theory.\\
+\pause
+Specifically the regularity axiom for the set $\{a,c\}$...
+\end{soln}
+\end{frame}
+
+\begin{frame}{Relations}
+The \textbf{Cartesian product} of $A$ and $B$ is
+$$A\times B = \{(a,b): a\in A,\ b\in B\}.$$
+\pause
+A \textbf{relation} $\mathcal R$ from $A$ to $B$ is a subset of $A\times B$.\\
+\pause
+$$\text{\color{red}NOTATION:}\quad a\mathcal R b\quad\text{means}\quad (a,b)\in \mathcal R.$$
+\pause
+Domain and codomain:
+\pause
+\begin{align*}
+\pause
+\text{dom}(\mathcal{R}) &= \{a\in A: \exists b\in B,\ a\mathcal R b\}\\
+\pause
+\text{codom}(\mathcal{R}) &= \{b\in B: \exists a\in A,\ a\mathcal R b\}
+\end{align*}
+\end{frame}
+
+\begin{frame}{Relations}
+A relation $\mathcal R$ from $A$ to $A$ is called a \textbf{relation on} $A$.  A relation on $A$ is
+\begin{itemize}
+\pause
+\item \textbf{reflexive} if $a\mathcal Ra$ for all $a\in A$
+\pause
+\item \textbf{symmetric} if $a\mathcal Rb$ implies $b\mathcal Ra$ for all $a,b\in A$
+\pause
+\item \textbf{transitive} if $a\mathcal Rb$ and $b\mathcal Rc$ implies $a\mathcal Rc$ for all $a,b,c\in\mathcal A$
+\end{itemize}
+\pause
+An \textbf{equivalence relation} satisfies all three properties.\\
+\pause
+Examples:
+\pause
+\begin{itemize}
+\pause
+\item $<\ = \{(x,y): y-x\in (0,\infty)\}$ is transitive but not reflexive or symmetric on $\mathbb{R}$
+\pause
+\item $\leq\ = \{(x,y): y-x\in [0,\infty)\}$ is reflexive and transitive but not symmetric on $\mathbb{R}$
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Challenge!}
+\begin{prob}
+Give an example of a relation on $\mathbb{R}$ which is symmetric and transitive but not reflexive.
+\end{prob}
+\end{frame}
+
+\begin{frame}{Challenge!}
+\begin{prob}
+Give an example of a relation on $\mathbb{R}$ which is reflexive and symmetric but not transitive.
+\end{prob}
+\end{frame}
+
+\begin{frame}{Functions}
+A \textbf{function} from $A$ to $B$ is a relation $\mathcal R$ from $A$ to $B$ with the property
+\pause
+$$a\mathcal Rb\ \text{and}\ a\mathcal Rc\quad\text{implies}\quad b=c.$$
+\pause
+If a relation $\mathcal R$ is a function, we usually use a symbol like $f$.\\
+\begin{align*}
+\pause
+\text{\color{red}NOTATION:}&\quad f: A\rightarrow B\quad\text{means $f$ is a function from $A$ to $B$}\\
+\pause
+\text{\color{red}NOTATION:}&\quad f(a) = b\quad\text{means}\quad (a,b)\in f.
+\end{align*}
+\pause
+The set $$\img(f) = \{f(a): a\in A\}$$ is called the \textbf{range} or \textbf{image} of $f$
+\end{frame}
+
+\begin{frame}{Challenge!}
+\begin{prob}
+Determine all the equivalence relations on $\mathbb{R}$ which are also functions.
+\end{prob}
+\pause
+\begin{soln}
+$f=\mathcal R$ must be reflexive, so $x\mathcal Rx$ for all $x$\\
+\pause
+This means $f(x) = x$ for all $x$.\\
+\pause
+Thus the only function which is an equivalence relation is the identity function
+$$f(x) = x.$$
+\end{soln}
+\end{frame}
+
+\begin{frame}{Properties of functions}
+A function $f$ from $A$ to $B$ is called \textbf{one-to-one} or \textbf{injective} if 
+\pause
+$$f(x) = f(y) \quad\text{implies}\quad x=y\ \ \text{for all $x,y\in A$}.$$
+\pause
+It is called \textbf{onto} or \textbf{surjective} if $\img(f) = B$, or equivalently
+$$\text{for all $b\in B$ there exists $a\in A$ with $f(a) =b$}.$$
+\pause
+If it satisfies both properties, it is called \textbf{bijective}.
+\end{frame}
+
+\begin{frame}{Inverses}
+The \textbf{converse} of a relation $\mathcal R$ from $A$ to $B$ is the relation
+\pause
+$$\check{\mathcal R} = \{(b,a)\in B\times A: a\mathcal R b\}.$$
+\pause
+If $f$ is  function, then $\check f$ may or not be a function.\\
+\pause
+If it is, we call it the \vocab{inverse} of $f$.
+\end{frame}
+
+\begin{frame}{Compositions}
+The composition of $f: A\rightarrow B$ and $g: B\rightarrow C$ is the function
+\pause
+$$g\circ f: A\rightarrow C$$
+\pause
+with domain $A$ and codomain $C$ defined by
+\pause
+$$(g\circ f)(x)  = g(f(x)).$$
+\end{frame}
+
+
+\end{document}
+
+
