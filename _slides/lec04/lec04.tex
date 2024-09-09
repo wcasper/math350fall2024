@@ -204,11 +204,12 @@ $$-\lvert x\rvert\leq x \leq \lvert x\rvert.$$
 \begin{prob}
 Prove Apostol Theorem 1.21 that if $a\geq 0$, then $\lvert x\rvert \leq a$ if and only if $-a\leq x\leq a$.
 \end{prob}
+\pause 
 \begin{soln}
 If $\lvert x\rvert \leq a$ then $-a\leq -\lvert x\rvert$
 \pause 
 and therefore
-$$-a\leq -\lvert x\rvert \leq x\leq \lvert x\rvert\leq a$$.
+$$-a\leq -\lvert x\rvert \leq x\leq \lvert x\rvert\leq a$$
 \pause 
 Conversely, if $-a\leq x\leq a$ then
 \pause 
@@ -223,6 +224,7 @@ $$x\leq 0\Rightarrow \lvert x\rvert = -x\leq -(-a) = a$$
 For any real numbers $x,y\in\mathbb{R}$ we have
 $$\lvert x+y\rvert\leq \lvert x \rvert + \lvert y\rvert.$$
 \end{thm}
+\pause 
 \begin{proof}
 $$
 -\lvert x \rvert \leq x\leq \lvert x\rvert
@@ -264,9 +266,13 @@ $$(\vec x\cdot\vec y)^2 \leq \lvert \vec x\rvert^2\lvert \vec y\rvert^2.$$
 
 \begin{frame}{Higher-dimensional triangle inequality}
 \begin{proof}
+\pause
 $$\sum_{k=1}^n (x_k + ty_k)^2\geq 0,\quad \text{with equality iff all terms zero}$$
+\pause
 $$\sum_{k=1}^n x_k^2 + 2t\sum_{k=1}^n x_ky_k + t^2\sum_{k=1}^ny_k^2\geq 0$$
+\pause
 Take $t = -\left(\sum_{k=1}^n x_ky_k\right)/\left(\sum_{k=1}^ny_k^2\right):$
+\pause
 $$\sum_{k=1}^n x_k^2 -\frac{ \left(\sum_{k=1}^n x_ky_k\right)^2}{\left(\sum_{k=1}^ny_k^2\right)}\geq 0.$$
 \end{proof}
 \end{frame}
@@ -286,6 +292,7 @@ A higher dimensional triangle inequality!
 \begin{frame}{Higher-dimensional triangle inequality}
 \begin{proof}
 By the triangle inequality:
+\pause
 {\tiny
 \begin{align*}
 \sum_{k=1}^n (x_k+y_k)^2
@@ -293,9 +300,12 @@ By the triangle inequality:
   & =    \sum_{k=1}^n |x_k|\cdot|x_k+y_k| + \sum_{k=1}^n |y_k|\cdot|x_k+y_k|\\
 \end{align*}
 }
+\pause
 Now applying the Cauchy-Schwartz inequality: 
+\pause
 {\tiny
 \begin{align*}
+\pause
   & \leq \left(\sum_{k=1}^n |x_k|^2\right)^{1/2}\left(\sum_{k=1}^n |x_k+y_k|^2\right)^{1/2}  +  \left(\sum_{k=1}^n |y_k|^2\right)^{1/2}\left(\sum_{k=1}^n |x_k+y_k|^2\right)^{1/2}\\
   & = \left[\left(\sum_{k=1}^n |x_k|^2\right)^{1/2}  +  \left(\sum_{k=1}^n |y_k|^2\right)^{1/2}\right] \left(\sum_{k=1}^n |x_k+y_k|^2\right)^{1/2}
 \end{align*}
@@ -308,15 +318,23 @@ Now applying the Cauchy-Schwartz inequality:
 \begin{frame}{Set basics}
 Intuitively, a \textbf{set} $A$ is a "collection of things" which we call the \textbf{elements} of $A$.
 \begin{itemize}
+\pause
 \item in practice, this is a bad definition (Russell's Paradox)
+\pause
 \item true set formulation: Zermelo-Frankel Axioms
 \end{itemize}
+\pause
 Examples:
 \begin{itemize}
+\pause
 \item $\mathbb R$, $\mathbb{Z}_+$, $\mathbb{Z}$, $\mathbb{Q}$
+\pause
 \item $(1,5]$, $(0,\infty)$
+\pause
 \item empty set $\varnothing$
+\pause
 \item $\{\heartsuit,\text{Fall}, \{\varnothing\}\}$
+\pause
 \item $\{n\in \mathbb{Z}: \text{$n$ is prime}\}$
 \end{itemize}
 \end{frame}
@@ -324,11 +342,16 @@ Examples:
 \begin{frame}{Everything is a set}
 In the true minimalistic philosophy of mathematics, we want everything to be a set.
 \begin{itemize}
+\pause
 \item integers
+\pause
 $$0 = \varnothing, 1 = \{\varnothing\}, 2 = \{\varnothing,\{\varnothing\}\},\dots$$
+\pause
 \item ordered pairs
+\pause
 $$(a,b) = \{a,\{a,b\}\}$$
-\item even relations and functions are sets
+\pause
+\item even relations and functions are sets!
 \end{itemize}
 \end{frame}
 
@@ -407,7 +430,6 @@ Domain and codomain:
 \begin{align*}
 \pause
 \text{dom}(\mathcal{R}) &= \{a\in A: \exists b\in B,\ a\mathcal R b\}\\
-\pause
 \text{codom}(\mathcal{R}) &= \{b\in B: \exists a\in A,\ a\mathcal R b\}
 \end{align*}
 \end{frame}
