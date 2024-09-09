@@ -1,5 +1,5 @@
 \babel@toc {english}{}\relax 
 \beamer@sectionintoc {1}{Real Analysis Lecture 3}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Decimal expansions}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{The Triangle Inequality}{21}{0}{1}
-\beamer@subsectionintoc {1}{3}{Sets, Relations, Functions}{50}{0}{1}
+\beamer@subsectionintoc {1}{2}{The Triangle Inequality}{25}{0}{1}
+\beamer@subsectionintoc {1}{3}{Sets, Relations, Functions}{54}{0}{1}
