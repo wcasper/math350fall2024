@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  9 SEP 2024 11:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  9 SEP 2024 14:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -933,79 +933,79 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 ] [7
 
 ]
-Overfull \vbox (11.82655pt too high) detected at line 165
+Overfull \vbox (4.17772pt too high) detected at line 165
  []
 
 [8
 
 ]
-Overfull \vbox (11.82655pt too high) detected at line 165
+Overfull \vbox (4.17772pt too high) detected at line 165
  []
 
 [9
 
 ]
-Overfull \vbox (11.82655pt too high) detected at line 165
+Overfull \vbox (4.17772pt too high) detected at line 165
  []
 
 [10
 
 ]
-Overfull \vbox (11.82655pt too high) detected at line 165
+Overfull \vbox (4.17772pt too high) detected at line 165
  []
 
 [11
 
 ]
-Overfull \vbox (11.82655pt too high) detected at line 165
+Overfull \vbox (4.17772pt too high) detected at line 165
  []
 
 [12
 
 ]
-Overfull \vbox (11.82655pt too high) detected at line 165
+Overfull \vbox (4.17772pt too high) detected at line 165
  []
 
 [13
 
 ]
-Overfull \vbox (7.8109pt too high) detected at line 187
+Overfull \vbox (0.16206pt too high) detected at line 187
  []
 
 [14
 
 ]
-Overfull \vbox (7.8109pt too high) detected at line 187
+Overfull \vbox (0.16206pt too high) detected at line 187
  []
 
 [15
 
 ]
-Overfull \vbox (7.8109pt too high) detected at line 187
+Overfull \vbox (0.16206pt too high) detected at line 187
  []
 
 [16
 
 ]
-Overfull \vbox (7.8109pt too high) detected at line 187
+Overfull \vbox (0.16206pt too high) detected at line 187
  []
 
 [17
 
 ]
-Overfull \vbox (7.8109pt too high) detected at line 187
+Overfull \vbox (0.16206pt too high) detected at line 187
  []
 
 [18
 
 ]
-Overfull \vbox (7.8109pt too high) detected at line 187
+Overfull \vbox (0.16206pt too high) detected at line 187
  []
 
 [19
 
 ]
-Overfull \vbox (7.8109pt too high) detected at line 187
+Overfull \vbox (0.16206pt too high) detected at line 187
  []
 
 [20
@@ -1022,62 +1022,39 @@ Overfull \vbox (7.8109pt too high) detected at line 187
 
 ] [26
 
-]
-Overfull \vbox (1.37395pt too high) detected at line 245
- []
+] [27
 
-[27
+] [28
 
-]
-Overfull \vbox (1.37395pt too high) detected at line 245
- []
+] [29
 
-[28
+] [30
+
+] [31
 
 ]
-Overfull \vbox (1.37395pt too high) detected at line 245
- []
-
-[29
-
-]
-Overfull \vbox (1.37395pt too high) detected at line 245
- []
-
-[30
-
-]
-Overfull \vbox (1.37395pt too high) detected at line 245
- []
-
-[31
-
-]
-Overfull \vbox (1.37395pt too high) detected at line 245
- []
-
 [32
 
 ]
-Overfull \vbox (22.73412pt too high) detected at line 268
+Overfull \vbox (15.08528pt too high) detected at line 268
  []
 
 [33
 
 ]
-Overfull \vbox (22.73412pt too high) detected at line 268
+Overfull \vbox (15.08528pt too high) detected at line 268
  []
 
 [34
 
 ]
-Overfull \vbox (22.73412pt too high) detected at line 268
+Overfull \vbox (15.08528pt too high) detected at line 268
  []
 
 [35
 
 ]
-Overfull \vbox (22.73412pt too high) detected at line 268
+Overfull \vbox (15.08528pt too high) detected at line 268
  []
 
 [36
@@ -1109,186 +1086,16 @@ Overfull \vbox (22.73412pt too high) detected at line 268
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 339.
+ [49
 
-Overfull \vbox (5.66595pt too high) detected at line 339
- []
-
-[49
+] [50
 
 ]
-Overfull \vbox (5.66595pt too high) detected at line 339
- []
-
-[50
-
-]
-Overfull \vbox (5.66595pt too high) detected at line 339
- []
-
 [51
 
-]
-Overfull \vbox (5.66595pt too high) detected at line 339
- []
+] [52
 
-[52
-
-]
-Overfull \vbox (5.66595pt too high) detected at line 339
- []
-
-[53
-
-] (./lec04.toc) [54
-
-] [55
-
-] [56
-
-] [57
-
-] [58
-
-] [59
-
-] [60
-
-] [61
-
-] [62
-
-] [63
-
-] [64
-
-]
-[65
-
-] [66
-
-] [67
-
-] [68
-
-] [69
-
-] [70
-
-] [71
-
-] [72
-
-] [73
-
-] [74
-
-] [75
-
-] [76
-
-] [77
-
-] [78
-
-] [79
-
-]
-[80
-
-] [81
-
-] [82
-
-] [83
-
-] [84
-
-] [85
-
-] [86
-
-] [87
-
-] [88
-
-] [89
-
-] [90
-
-] [91
-
-] [92
-
-] [93
-
-] [94
-
-]
-[95
-
-] [96
-
-] [97
-
-] [98
-
-] [99
-
-] [100
-
-] [101
-
-] [102
-
-] [103
-
-] [104
-
-] [105
-
-] [106
-
-] [107
-
-]
-[108
-
-] [109
-
-] [110
-
-] [111
-
-] [112
-
-] [113
-
-] [114
-
-] [115
-
-] [116
-
-] [117
-
-] [118
-
-] [119
-
-]
-[120
-
-] [121
-
-] [122
-
-] [123
-
-] [124
-
-] [125
-
-] [126
+] [53
 
 ]
 \tf@nav=\write6
@@ -1305,14 +1112,21 @@ Overfull \vbox (5.66595pt too high) detected at line 339
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-Package rerunfilecheck Info: File `lec04.out' has not changed.
-(rerunfilecheck)             Checksum: FB4A04BC49E39F9ED2A127015D286416;690.
+
+
+Package rerunfilecheck Warning: File `lec04.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `lec04.out':
+(rerunfilecheck)             Before: 8D7E623C3D23D1BF43D15E5DD8141842;496
+(rerunfilecheck)             After:  7FD067B7912ACC533A2D8199833F215E;496.
  ) 
 Here is how much of TeX's memory you used:
- 23730 strings out of 476182
- 454930 string characters out of 5796232
- 1988975 words of memory out of 5000000
- 44962 multiletter control sequences out of 15000+600000
+ 23489 strings out of 476182
+ 450766 string characters out of 5796232
+ 1968975 words of memory out of 5000000
+ 44870 multiletter control sequences out of 15000+600000
  595605 words of font info for 84 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,19n,123p,408b,681s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1327,10 +1141,10 @@ ype1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/ams
 fonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a
 .pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/tex
 mf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on lec04.pdf (126 pages, 571469 bytes).
+Output written on lec04.pdf (53 pages, 318291 bytes).
 PDF statistics:
- 5161 PDF objects out of 6186 (max. 8388607)
- 4260 compressed objects within 43 object streams
- 257 named destinations out of 1000 (max. 500000)
- 3237 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2292 PDF objects out of 2487 (max. 8388607)
+ 1829 compressed objects within 19 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 1741 words of extra memory for PDF output out of 10000 (max. 10000000)
 
