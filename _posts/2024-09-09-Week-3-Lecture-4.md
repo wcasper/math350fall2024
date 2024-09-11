@@ -5,7 +5,7 @@ title:  Lecture 4
 
 ## Topics
 
-decimal expansions, sets, ordered pairs and Cartesian products, relations and functions, one-to-one and onto functions
+decimal expansions, triangle inequality
 
 ## Reading assignment
 * Apostol pp. 32-37
