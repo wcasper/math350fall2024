@@ -2,4 +2,3 @@
 \beamer@sectionintoc {1}{Real Analysis Lecture 6}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Functions}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{Cardinality}{32}{0}{1}
-\beamer@subsectionintoc {1}{3}{Set algebra}{79}{0}{1}

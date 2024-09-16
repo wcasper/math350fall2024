@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  16 SEP 2024 13:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  16 SEP 2024 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1063,70 +1063,6 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 
 ] [70
 
-] [71
-
-] [72
-
-] [73
-
-] [74
-
-] [75
-
-] [76
-
-] [77
-
-] [78
-
-] (./lec06.toc)
-[79
-
-] [80
-
-] [81
-
-] [82
-
-] [83
-
-] [84
-
-] [85
-
-] [86
-
-] [87
-
-] [88
-
-] [89
-
-] [90
-
-] [91
-
-] [92
-
-] [93
-
-]
-[94
-
-] [95
-
-] [96
-
-] [97
-
-] [98
-
-] [99
-
-] [100
-
-] [101
-
 ]
 \tf@nav=\write6
 \openout6 = `lec06.nav'.
@@ -1143,13 +1079,13 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `lec06.out' has not changed.
-(rerunfilecheck)             Checksum: FE8704313A2DBB41FE15A999E5498E66;498.
+(rerunfilecheck)             Checksum: 0239A68B05774800CC825229F2B34851;382.
  ) 
 Here is how much of TeX's memory you used:
- 23595 strings out of 476182
- 451153 string characters out of 5796232
- 1962975 words of memory out of 5000000
- 44879 multiletter control sequences out of 15000+600000
+ 23467 strings out of 476182
+ 448720 string characters out of 5796232
+ 1952975 words of memory out of 5000000
+ 44816 multiletter control sequences out of 15000+600000
  593234 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,19n,123p,408b,951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1157,15 +1093,14 @@ Here is how much of TeX's memory you used:
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/te
-xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1
-/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8
-a.pfb>
-Output written on lec06.pdf (101 pages, 396357 bytes).
+msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-d
+ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/
+helvetic/uhvro8a.pfb>
+Output written on lec06.pdf (70 pages, 282081 bytes).
 PDF statistics:
- 3873 PDF objects out of 4296 (max. 8388607)
- 3294 compressed objects within 33 object streams
- 207 named destinations out of 1000 (max. 500000)
- 1731 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2572 PDF objects out of 2984 (max. 8388607)
+ 2204 compressed objects within 23 object streams
+ 144 named destinations out of 1000 (max. 500000)
+ 1093 words of extra memory for PDF output out of 10000 (max. 10000000)
 
