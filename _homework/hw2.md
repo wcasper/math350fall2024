@@ -23,5 +23,5 @@ Note: in Apstol's notation, $$A\sim B$$ means $$\lvert A\rvert = \lvert B\rvert$
 
 * 2.2,2.7,2.9,2.11,2.12,2.18
 
-Additional problem: Let $A$ be an infinite set and suppose $q$ is an element that is not in $A$.  Prove that $A$ and $A\cup\{q\}$ have the same cardinality.
+Additional problem: Let $$A$$ be an infinite set and suppose $$q$$ is an element that is not in $$A$$.  Prove that $$A$$ and $$A\cup\{q\}$$ have the same cardinality.
 
