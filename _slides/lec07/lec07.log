@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  16 SEP 2024 14:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  18 SEP 2024 11:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -742,8 +742,7 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count341
 \l__pdf_internal_box=\box76
-)
-No file lec07.aux.
+) (./lec07.aux)
 \openout1 = `lec07.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
@@ -764,6 +763,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
 LaTeX Font Info:    ... okay on input line 102.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
 LaTeX Font Info:    ... okay on input line 102.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -821,6 +821,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring OFF on input line 102.
+ (./lec07.out)
+(./lec07.out)
 \@outlinefile=\write5
 \openout5 = `lec07.out'.
 
@@ -890,18 +892,13 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-Engli
 sh.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-)
-No file lec07.nav.
-[1
+) (./lec07.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/shar
+e/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
-/enc/dvips/base/8r.enc}]
-No file lec07.toc.
-[2
+] (./lec07.toc) [2
 
 ]
-No file lec07.toc.
-[3
+(./lec07.toc) [3
 
 ]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 142
@@ -944,13 +941,11 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 
 ] [11
 
-]
-No file lec07.toc.
-[12
+] [12
 
 ] [13
 
-] [14
+] (./lec07.toc) [14
 
 ] [15
 
@@ -964,7 +959,8 @@ No file lec07.toc.
 
 ] [20
 
-] [21
+]
+[21
 
 ] [22
 
@@ -976,8 +972,7 @@ No file lec07.toc.
 
 ] [26
 
-]
-[27
+] [27
 
 ] [28
 
@@ -992,6 +987,44 @@ No file lec07.toc.
 ] [33
 
 ] [34
+
+] [35
+
+]
+[36
+
+] [37
+
+] [38
+
+] [39
+
+] [40
+
+] [41
+
+] [42
+
+] [43
+
+] [44
+
+] [45
+
+] [46
+
+] [47
+
+] [48
+
+] [49
+
+] [50
+
+]
+(./lec07.toc) [51
+
+] [52
 
 ]
 \tf@nav=\write6
@@ -1008,37 +1041,30 @@ No file lec07.toc.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-Package rerunfilecheck Warning: File `lec07.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `lec07.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  E2286BADC3286D3F6FB841E489951D5A;416.
+Package rerunfilecheck Info: File `lec07.out' has not changed.
+(rerunfilecheck)             Checksum: 6F53C37313B068090F2288006F74301D;641.
  ) 
 Here is how much of TeX's memory you used:
- 23227 strings out of 476182
- 444236 string characters out of 5796232
- 1944975 words of memory out of 5000000
- 44663 multiletter control sequences out of 15000+600000
- 592017 words of font info for 81 fonts, out of 8000000 for 9000
+ 23450 strings out of 476182
+ 449042 string characters out of 5796232
+ 1970975 words of memory out of 5000000
+ 44832 multiletter control sequences out of 15000+600000
+ 593234 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 128i,15n,123p,408b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,19n,123p,408b,681s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/te
-xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1
-/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8
-a.pfb>
-Output written on lec07.pdf (34 pages, 179381 bytes).
+ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/
+type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/u
+hvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on lec07.pdf (52 pages, 283056 bytes).
 PDF statistics:
- 1218 PDF objects out of 1440 (max. 8388607)
- 1015 compressed objects within 11 object streams
- 72 named destinations out of 1000 (max. 500000)
- 745 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2274 PDF objects out of 2487 (max. 8388607)
+ 1830 compressed objects within 19 object streams
+ 109 named destinations out of 1000 (max. 500000)
+ 1617 words of extra memory for PDF output out of 10000 (max. 10000000)
 

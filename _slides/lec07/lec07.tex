@@ -122,7 +122,7 @@
 
 \section{Real Analysis Lecture 7}
 
-\subsection{From last time}
+\subsection{More with cardinality}
 
 \begin{frame}{Ultimate Cantor diagonalization}
 The \textbf{power set}  $\mathcal{P}(A)$ of a set $A$ is
@@ -147,6 +147,18 @@ Since $f$ is surjectve, $S = f(x)$ for some $x\in A$.
 \pause
 \begin{prob}
 Consider the statement $x\in S$.  What can you conclude?
+\end{prob}
+\end{frame}
+
+\begin{frame}{Challenge}
+\begin{prob}
+Is there a set with cardinality larger than $\mathbb{R}$?
+\end{prob}
+\end{frame}
+
+\begin{frame}{Challenge}
+\begin{prob}
+Show that the cardinality of the line segment $(0,1)$ and the square $(0,1)\times (0,1)$ is the same.
 \end{prob}
 \end{frame}
 
@@ -209,9 +221,9 @@ $$\bigcap_{i\in I} A_i = \{x: x\in A_i,\ \text{for all $i\in I$}\}$$
 
 \begin{frame}{Challenge}
 \begin{itemize}
-\item index set $I = \mathbb{Z}_+$
+\item index set $I = (1,2)$
 \item family of sets $\{A_i: i\in I\}$
-\item $A_i = [0,i)$
+\item $A_i = [0,i]$
 \end{itemize}
 \begin{prob}
 Determine $\bigcup_{i\in I} A_i$.
@@ -229,6 +241,56 @@ Determine $\bigcap_{i\in I} A_i$.
 \end{prob}
 \end{frame}
 
+\begin{frame}{Countable unions}
+A \textbf{countable family of sets} is a family of sets where the index set is countable.
+\pause
+\begin{thm}
+The union of a countable family of countable sets is countable.
+\end{thm}
+\pause
+\begin{proof}
+Let $\{A_i: i\in I\}$ be a countable family of countable sets.\\
+\pause
+$I$ is countable.\ \pause There is a surjection $\mathbb{Z}_+\rightarrow I$\\
+\pause
+In other words, we can enumerate $I = \{i_1,i_2,i_3,\dots\}$.\\
+\pause
+$A_i$ is countable for all $i\in I$.\\
+\pause
+So again $A_i = \{a_{i1},a_{i2},a_{i3},\dots\}$.\\
+\pause
+Define $f: \mathbb Z_+\times\mathbb Z_+\rightarrow \bigcup_{i\in I} A_i$\\
+\pause
+$f(j,k) = a_{i_j,k}$.\ \pause Surjection!
+\end{proof}
+\end{frame}
+
+\begin{frame}{Challenge!}
+A real number is called \textbf{algebraic} if it is a root of a polynomial with integer coefficients.
+\pause
+\begin{prob}
+Prove that the set of all algebraic numbers is countable.
+\end{prob}
+\pause
+Hint: use the previous theorem!
+\end{frame}
+
+\subsection{Open Balls and Open Sets}
+
+\begin{frame}{Euclidean space}
+$n$-dimensional \textbf{euclidean space} is
+$$\mathbb{R}^n = \{(a_1,a_2,\dots,a_n): a_1,\dots, a_n\in\mathbb{R}\}.$$
+Definitions:\\
+Given $\vec x = (x_1,\dots, x_n)$ and $\vec y = (y_1,\dots, y_n)$
+\begin{enumerate}[(a)]
+\item $\vec x + \vec y = (x_1+y_1,\dots,x_n+y_n)$
+\item $a\vec x = (ax_1,\dots, ax_n)$
+\item $\vec x - \vec y = \vec x + (-1)\vec y = (x_1-y_1,\dots,x_n-y_n)$
+\item $\vec 0 = (0,\dots, 0)$
+\item $\vec x\cdot\vec y = \sum_{i=1}^n x_iy_y$
+\item $|\vec x| = (\vec x\cdot\vec x)^{1/2} = \left(\sum_{i=1}^nx_i^2\right)^{1/2}$
+\end{enumerate}
+\end{frame}
 
 \end{document}
 
