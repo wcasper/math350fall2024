@@ -106,7 +106,7 @@ Exams will take place during class at the times stated below. You will come to c
 If you have an accommodation from Disability Support Services (such as time-and-a-half), it is your responsibility to coordinate with the instructor before each exam.
 
 **Midterm Exams**
-There will be three midterm exams, each lasting 1 hour.
+There will be three midterm exams, each lasting 1 hour 50 minutes.
 Each midterm will be worth 15\% of your final grade.
 Midterms will be held during class time on the following dates:
 * Wednesday, September 25, 2024
