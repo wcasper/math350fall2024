@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  16 SEP 2024 14:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  18 SEP 2024 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1097,7 +1097,7 @@ msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 ></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-d
 ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/
 helvetic/uhvro8a.pfb>
-Output written on lec06.pdf (70 pages, 282081 bytes).
+Output written on lec06.pdf (70 pages, 282284 bytes).
 PDF statistics:
  2572 PDF objects out of 2984 (max. 8388607)
  2204 compressed objects within 23 object streams
