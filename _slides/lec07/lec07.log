@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  18 SEP 2024 11:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  18 SEP 2024 12:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1026,6 +1026,49 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 
 ] [52
 
+] [53
+
+] [54
+
+] [55
+
+] [56
+
+] [57
+
+] [58
+
+] [59
+
+] [60
+
+] [61
+
+] [62
+
+]
+[63
+
+] [64
+
+] [65
+
+] [66
+
+] [67
+
+] [68
+
+] [69
+
+] [70
+
+] [71
+
+] [72
+
+] [73
+
 ]
 \tf@nav=\write6
 \openout6 = `lec07.nav'.
@@ -1045,13 +1088,13 @@ Package rerunfilecheck Info: File `lec07.out' has not changed.
 (rerunfilecheck)             Checksum: 6F53C37313B068090F2288006F74301D;641.
  ) 
 Here is how much of TeX's memory you used:
- 23450 strings out of 476182
- 449042 string characters out of 5796232
- 1970975 words of memory out of 5000000
- 44832 multiletter control sequences out of 15000+600000
+ 23501 strings out of 476182
+ 449777 string characters out of 5796232
+ 1976975 words of memory out of 5000000
+ 44841 multiletter control sequences out of 15000+600000
  593234 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 128i,19n,123p,408b,681s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,19n,123p,408b,989s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public
@@ -1061,10 +1104,10 @@ mss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 st/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/
 type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/u
 hvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on lec07.pdf (52 pages, 283056 bytes).
+Output written on lec07.pdf (73 pages, 362559 bytes).
 PDF statistics:
- 2274 PDF objects out of 2487 (max. 8388607)
- 1830 compressed objects within 19 object streams
- 109 named destinations out of 1000 (max. 500000)
- 1617 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3032 PDF objects out of 3580 (max. 8388607)
+ 2499 compressed objects within 25 object streams
+ 151 named destinations out of 1000 (max. 500000)
+ 1959 words of extra memory for PDF output out of 10000 (max. 10000000)
 
