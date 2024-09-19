@@ -83,16 +83,15 @@ c) Carefully prove that the supremum you found is the supremum of the set
 ## Problem 8
 
 Consider the family of sets $$\{A_i: i\in I\}$$
-
 with index set $$I=\mathbb{Z}_+$$ and with $$A_i = (-1/i,1/i)$$.
 
-* (a) Determine the value of $$\bigcup_{i\in I} A_i$$
+(a) Determine the value of $$\bigcup_{i\in I} A_i$$
 
-* (b) Carefully prove your answer in part (a)
+(b) Carefully prove your answer in part (a)
 
-* (c) Determine the value of $$\bigcap_{i\in I} A_i$$
+(c) Determine the value of $$\bigcap_{i\in I} A_i$$
 
-* (d) Carefully prove your answer in part (d)
+(d) Carefully prove your answer in part (d)
 
 
 
