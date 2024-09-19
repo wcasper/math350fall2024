@@ -73,3 +73,9 @@ collections:
     output: true
 
 
+MathJax = {
+  loader: {load: ['ui/lazy']}
+};
+
+
+
