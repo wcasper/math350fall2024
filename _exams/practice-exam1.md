@@ -44,7 +44,9 @@ bounded above?  Carefully justify your answer.
 ## Problem 4
 
 a) Write the definition of a relation $$\mathcal R$$ from a set $$A$$ to a set $$B$$
+
 b) Write what it means for a relation $$\mathcal R$$ on a set $$A$$ to be reflexive.  What about symmetric?  Transitive?  An equivalence relation?
+
 c) Give an example of a relation which is reflexive, but not symmetric or transitive.
 
 ## Problem 5
@@ -54,6 +56,7 @@ Consider the relation from $$\mathbb{Z}$$ to $$\mathbb{Z}_+$$ defined by
 $$\mathcal R = \{(x+y,xy^2): x\in\mathbb{Z}_+,\ \ y\in\mathbb{Z}\},$$
 
 a) Write what it means for a relation $$\mathcal R$$ from a set $$A$$ to a set $$B$$ to be a function
+
 b) Is $$f(x)$$ a function?  Carefully explain.
 
 ## Problem 6
@@ -84,8 +87,11 @@ Consider the family of sets $$\{A_i: i\in I\}$$
 with index set $$I=\mathbb{Z}_+$$ and with $$A_i = (-1/i,1/i)$$.
 
 * (a) Determine the value of $$\bigcup_{i\in I} A_i$$
+
 * (b) Carefully prove your answer in part (a)
+
 * (c) Determine the value of $$\bigcap_{i\in I} A_i$$
+
 * (d) Carefully prove your answer in part (d)
 
 
