@@ -8,7 +8,7 @@ title:  Lecture 8
 * open balls, open sets, component intervals
 
 ## Reading assignment
-* Apostol pp. 42-46
+* Apostol pp. 47-51
 
 ### Slides
 
