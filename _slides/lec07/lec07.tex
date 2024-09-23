@@ -184,7 +184,7 @@ $$A\cap B = \{x: x\in A\ \ \text{and}\ \ x\in B\},$$
 \pause
 $$A\cap B\cap C = \{x: x\in A\ \ \text{and}\ \ x\in B\ \ \text{and}\ \ x\in C\},$$
 \pause
-$$A_1\cap A_2\cap \dots \cap A_n = \{x: x\in A_i\ \ \text{for some $1\leq i\leq n$}\}$$
+$$A_1\cap A_2\cap \dots \cap A_n = \{x: x\in A_i\ \ \text{for all $1\leq i\leq n$}\}$$
 \pause
 {\color{red}NOTATION:}
 $$\bigcap_{i=1}^n A_i = A_1\cap A_2\cap \dots \cap A_n.$$
@@ -206,7 +206,7 @@ $$B-\bigcap_{i=1}^n A_i = \bigcup_{i=1}^n (B-A_i)$$
 
 \begin{frame}{Families of sets}
 A \textbf{family of sets} is a collection
-$$\{A_i; i\in I\}$$
+$$\{A_i: i\in I\}$$
 \begin{itemize}
 \pause
 \item $I$ any set, called the \textbf{index set}
@@ -273,60 +273,6 @@ Prove that the set of all algebraic numbers is countable.
 \end{prob}
 \pause
 Hint: use the previous theorem!
-\end{frame}
-
-\subsection{Open Balls and Open Sets}
-
-\begin{frame}{Euclidean space}
-\pause
-$n$-dimensional \textbf{euclidean space} is
-\pause
-$$\mathbb{R}^n = \{(a_1,a_2,\dots,a_n): a_1,\dots, a_n\in\mathbb{R}\}.$$
-\pause
-Definitions:\\
-\pause
-Given $\vec x = (x_1,\dots, x_n)$ and $\vec y = (y_1,\dots, y_n)$
-\begin{enumerate}[(a)]
-\pause
-\item $\vec x + \vec y = (x_1+y_1,\dots,x_n+y_n)$
-\pause
-\item $a\vec x = (ax_1,\dots, ax_n)$
-\pause
-\item $\vec x - \vec y = \vec x + (-1)\vec y = (x_1-y_1,\dots,x_n-y_n)$
-\pause
-\item $\vec 0 = (0,\dots, 0)$
-\pause
-\item $\vec x\cdot\vec y = \sum_{i=1}^n x_iy_y$
-\pause
-\item $|\vec x| = (\vec x\cdot\vec x)^{1/2} = \left(\sum_{i=1}^nx_i^2\right)^{1/2}$
-\end{enumerate}
-\end{frame}
-
-\begin{frame}{Metric properties}
-\pause
-The norm $|\vec x|$ is an example of a \vocab{metric}.\\
-\pause
-It satisfies several important properties:
-\pause
-\begin{thm}
-\begin{enumerate}[(a)]
-\pause
-\item (positivity) $|\vec x| \geq 0$ with equality iff $\vec x = \vec 0$
-\pause
-\item (symmetry) $|\vec x + \vec y| = |\vec y + \vec x|$
-\pause
-\item (triangle inequality) $|\vec x + \vec y| \leq |\vec x| + | \vec y|$
-\end{enumerate}
-\end{thm}
-\pause
-It also satisfies 
-\pause
-\begin{enumerate}[(a)]
-\pause
-\item (scaling)  $|c\vec x| = |c|\ |\vec x|$
-\pause
-\item (Cauchy-Schwartz) $|\vec x\cdot\vec y|\leq |\vec x|\ |\vec y|$
-\end{enumerate}
 \end{frame}
 
 \end{document}
