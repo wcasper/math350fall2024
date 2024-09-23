@@ -73,9 +73,9 @@ collections:
     output: true
 
 
-MathJax = {
-  loader: {load: ['ui/lazy']}
-};
+#MathJax = {
+#  loader: {load: ['ui/lazy']}
+#};
 
 
 
