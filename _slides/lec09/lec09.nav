@@ -29,34 +29,34 @@
 \headcommand {\beamer@subsectionentry {0}{1}{2}{45}{Closed Sets}}
 \headcommand {\slideentry {1}{2}{1}{45/45}{Closed Sets}{0}}
 \headcommand {\beamer@framepages {45}{45}}
-\headcommand {\slideentry {1}{2}{2}{46/46}{Closed Sets}{0}}
-\headcommand {\beamer@framepages {46}{46}}
-\headcommand {\slideentry {1}{2}{3}{47/54}{Closed Sets}{0}}
-\headcommand {\beamer@framepages {47}{54}}
-\headcommand {\slideentry {1}{2}{4}{55/57}{Closed Sets}{0}}
-\headcommand {\beamer@framepages {55}{57}}
-\headcommand {\slideentry {1}{2}{5}{58/65}{Closed Sets}{0}}
-\headcommand {\beamer@framepages {58}{65}}
-\headcommand {\slideentry {1}{2}{6}{66/66}{Closed Sets}{0}}
-\headcommand {\beamer@framepages {66}{66}}
-\headcommand {\slideentry {1}{2}{7}{67/68}{Closed Sets}{0}}
-\headcommand {\beamer@framepages {67}{68}}
-\headcommand {\beamer@subsectionpages {45}{68}}
-\headcommand {\beamer@subsectionentry {0}{1}{3}{69}{Compactness}}
-\headcommand {\slideentry {1}{3}{1}{69/69}{Compactness}{0}}
+\headcommand {\slideentry {1}{2}{2}{46/49}{Closed Sets}{0}}
+\headcommand {\beamer@framepages {46}{49}}
+\headcommand {\slideentry {1}{2}{3}{50/57}{Closed Sets}{0}}
+\headcommand {\beamer@framepages {50}{57}}
+\headcommand {\slideentry {1}{2}{4}{58/60}{Closed Sets}{0}}
+\headcommand {\beamer@framepages {58}{60}}
+\headcommand {\slideentry {1}{2}{5}{61/68}{Closed Sets}{0}}
+\headcommand {\beamer@framepages {61}{68}}
+\headcommand {\slideentry {1}{2}{6}{69/69}{Closed Sets}{0}}
 \headcommand {\beamer@framepages {69}{69}}
-\headcommand {\slideentry {1}{3}{2}{70/76}{Compactness}{0}}
-\headcommand {\beamer@framepages {70}{76}}
-\headcommand {\slideentry {1}{3}{3}{77/81}{Compactness}{0}}
-\headcommand {\beamer@framepages {77}{81}}
-\headcommand {\slideentry {1}{3}{4}{82/84}{Compactness}{0}}
-\headcommand {\beamer@framepages {82}{84}}
-\headcommand {\slideentry {1}{3}{5}{85/89}{Compactness}{0}}
-\headcommand {\beamer@framepages {85}{89}}
-\headcommand {\slideentry {1}{3}{6}{90/90}{Compactness}{0}}
-\headcommand {\beamer@framepages {90}{90}}
-\headcommand {\beamer@partpages {1}{90}}
-\headcommand {\beamer@subsectionpages {69}{90}}
-\headcommand {\beamer@sectionpages {3}{90}}
-\headcommand {\beamer@documentpages {90}}
+\headcommand {\slideentry {1}{2}{7}{70/71}{Closed Sets}{0}}
+\headcommand {\beamer@framepages {70}{71}}
+\headcommand {\beamer@subsectionpages {45}{71}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{72}{Compactness}}
+\headcommand {\slideentry {1}{3}{1}{72/72}{Compactness}{0}}
+\headcommand {\beamer@framepages {72}{72}}
+\headcommand {\slideentry {1}{3}{2}{73/79}{Compactness}{0}}
+\headcommand {\beamer@framepages {73}{79}}
+\headcommand {\slideentry {1}{3}{3}{80/84}{Compactness}{0}}
+\headcommand {\beamer@framepages {80}{84}}
+\headcommand {\slideentry {1}{3}{4}{85/87}{Compactness}{0}}
+\headcommand {\beamer@framepages {85}{87}}
+\headcommand {\slideentry {1}{3}{5}{88/92}{Compactness}{0}}
+\headcommand {\beamer@framepages {88}{92}}
+\headcommand {\slideentry {1}{3}{6}{93/93}{Compactness}{0}}
+\headcommand {\beamer@framepages {93}{93}}
+\headcommand {\beamer@partpages {1}{93}}
+\headcommand {\beamer@subsectionpages {72}{93}}
+\headcommand {\beamer@sectionpages {3}{93}}
+\headcommand {\beamer@documentpages {93}}
 \headcommand {\gdef \inserttotalframenumber {24}}

@@ -163,7 +163,7 @@ is not open.
 Let $U\subseteq \mathbb{R}$ be open.
 \pause
 \begin{defn}
-A \textbf{component interval} of $U$ is an interval $I$ with $I\subseteq U$ and with the property that if $J$ is an interval and $I\subseteq J$, then $J\nsubseteq U$.
+A \textbf{component interval} of $U$ is an interval $I$ with $I\subseteq U$ and with the property that if $J$ is an interval and $I\subsetneq J$, then $J\nsubseteq U$.
 \end{defn}
 \begin{itemize}
 \pause
@@ -261,9 +261,12 @@ $$U= \bigcup_{r\in U\cap\mathbb{Q}} I_r$$
 \begin{defn}
 A set $A\subseteq\mathbb{R}^n$ is called \vocab{closed} if it is the complement $\mathbb{R}^n\backslash A$ of an open set.
 \end{defn}
+\pause
 \textbf{Examples:}
 \begin{itemize}
+\pause
 \item singleton sets!
+\pause
 \item products of closed intervals
 \end{itemize}
 \end{frame}
