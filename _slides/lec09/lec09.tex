@@ -203,7 +203,7 @@ If $U\subseteq\mathbb{R}$ is open and $x\in U$, then there is a unique component
 Uniqueness follows from previous Lemma, so we only need existence.\\
 \pause
 Suppose that $x\in U$ and consider
-$$A = \{a: (a,x)\subseteq S\},\quad\text{and}\quad B = \{b: (x,b)\subseteq S\}$$
+$$A = \{a: (a,x)\subseteq U\},\quad\text{and}\quad B = \{b: (x,b)\subseteq U\}$$
 \pause
 If $A$ is not bounded below, let $a=-\infty$.  Otherwise, let $a = \inf (A)$.\\
 \pause
@@ -220,7 +220,7 @@ Prove that $(a,b)$ is a component interval of $U$.
 \end{frame}
 
 \begin{frame}{Open subsets of $\mathbb{R}$}
-\begin{thm}[Representation Theorem for Open Intervals in $\mathbb{R}$]
+\begin{thm}[Representation Theorem for Open Sets in $\mathbb{R}$]
 If $U\subseteq\mathbb{R}$ is open, then $U$ is the union of a countable family of disjoint open intervals.
 \end{thm}
 \pause
@@ -236,7 +236,7 @@ is a union of open intervals!\\
 \end{frame}
 
 \begin{frame}{Open subsets of $\mathbb{R}$}
-\begin{thm}[Representation Theorem for Open Intervals in $\mathbb{R}$]
+\begin{thm}[Representation Theorem for Open Sets in $\mathbb{R}$]
 If $U\subseteq\mathbb{R}$ is open, then $U$ is the union of a countable family of disjoint open intervals.
 \end{thm}
 \begin{proof}
@@ -259,7 +259,7 @@ $$U= \bigcup_{r\in U\cap\mathbb{Q}} I_r$$
 
 \begin{frame}{Closed sets}
 \begin{defn}
-A set $A\subseteq\mathbb{R}^n$ is called \vocab{closed} if it is the complement $\mathbb{R}^n\backslash A$ of an open set.
+A set $A\subseteq\mathbb{R}^n$ is called \vocab{closed} if it is the complement of an open set, or equivalently if its complement $\mathbb{R}^n\backslash A$ is open.
 \end{defn}
 \pause
 \textbf{Examples:}
@@ -291,7 +291,7 @@ Since $\vec x$ was arbitrary, this proves $U$ is open.
 \begin{frame}{Challenge!}
 \begin{prob}
 Prove that the \textbf{closed square}
-$$[a,b]\times [c,d] = \{(x,y)\in\mathbb{R}^2: a \leq x \leq c,\ b\leq y\leq d\}$$
+$$[a,b]\times [c,d] = \{(x,y)\in\mathbb{R}^2: a \leq x \leq b,\ c\leq y\leq d\}$$
 is a closed set.
 \end{prob}
 \pause

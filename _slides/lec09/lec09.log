@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  30 SEP 2024 11:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  30 SEP 2024 13:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1221,41 +1221,30 @@ Overfull \vbox (16.29332pt too high) detected at line 256
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-Package rerunfilecheck Warning: File `lec09.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `lec09.out':
-(rerunfilecheck)             Before: 1B14EF42442F548F581F73783E951AA4;547
-(rerunfilecheck)             After:  F3F758CD79DAE3D026F4A0625423FAA9;547.
+Package rerunfilecheck Info: File `lec09.out' has not changed.
+(rerunfilecheck)             Checksum: F3F758CD79DAE3D026F4A0625423FAA9;547.
  ) 
 Here is how much of TeX's memory you used:
- 23682 strings out of 476182
- 455198 string characters out of 5796232
+ 23681 strings out of 476182
+ 455183 string characters out of 5796232
  2011975 words of memory out of 5000000
  44981 multiletter control sequences out of 15000+600000
  599951 words of font info for 95 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,19n,123p,408b,681s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-pdfTeX warning (dest): name{Outline0.1.3.69} has been referenced but does not e
-xist, replaced by a fixed one
-
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texm
-f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/u
-rw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.
-pfb>
-Output written on lec09.pdf (93 pages, 502511 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/te
+xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1
+/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8
+a.pfb>
+Output written on lec09.pdf (93 pages, 502688 bytes).
 PDF statistics:
- 4406 PDF objects out of 5155 (max. 8388607)
- 3424 compressed objects within 35 object streams
- 192 named destinations out of 1000 (max. 500000)
+ 4405 PDF objects out of 5155 (max. 8388607)
+ 3423 compressed objects within 35 object streams
+ 191 named destinations out of 1000 (max. 500000)
  4335 words of extra memory for PDF output out of 10000 (max. 10000000)
 
