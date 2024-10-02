@@ -120,7 +120,7 @@
 % - Talk about 30s to 2min per frame. So there should be between about
 %   15 and 30 frames, all told.
 
-\section{Real Analysis Lecture 9}
+\section{Real Analysis Lecture 10}
 \subsection{More on Closed Sets}
 
 \begin{frame}{Adherent and Accumulation Points}
@@ -195,11 +195,30 @@ A set is closed if and only if it contains all of its adherent points (ie. $A= \
 \begin{frame}{Closure of a set}
 \begin{proof}
 Suppose that $A$ is closed.\\
+\pause
 Then $\mathbb{R}^n\backslash A$ is open.\\
+\pause
 If $\vec x\in \mathbb{R}^n\backslash A$, then there exist $r > 0$ such that $B(\vec x; r)\subseteq \mathbb{R}^n\backslash A$.\\
+\pause
 This means that $B(\vec x; r)\cap A = \varnothing$.\\
+\pause
 Thus $\vec x$ is not an adherent point of $A$.\\
-Thus every adherent point of $A$ is an element of $A$.
+\pause
+Thus every adherent point of $A$ is an element of $A$.\\
+\pause
+Conversely, suppse that $A$ contains all of its accumulation points.\\
+\pause
+If $\vec x\in \mathbb R^n\backslash A$, then $\vec x$ is not an accumulation point.\\
+\pause
+Therefore there exists $r > 0$ with $B(\vec x; r)\cap A = \varnothing$.\\
+\pause
+This implies that $B(\vec x; r)\subseteq \mathbb R^n\backslash A$.\\
+\pause
+Thus $\vec x$ is an interior point of $\mathbb R^n\backslash A$.\\
+\pause
+Since $\vec x$ was an arbitrary element of $\mathbb R^n\backslash A$, this proves $\mathbb R^n\backslash A$ is open.\\
+\pause
+Therefore $A$ is closed.
 \end{proof}
 \end{frame}
 
@@ -211,80 +230,6 @@ If $A\subseteq \mathbb{R}^n$ is any set, then $\overline{A}$ is closed.
 Exercise!
 \end{proof}
 \end{frame}
-
-\subsection{Compactness}
-
-\begin{frame}{Intuition of compactness}
-We are moving toward a very important notion called \textbf{compactness}.\\
-\pause
-This important concept is captured in many different ways:
-\begin{itemize}
-\pause
-\item no ``missing points" in the set
-\pause
-\item sequences have convergent subsequences
-\pause
-\item Cauchy sequences converge
-\pause
-\item open covers have finite subcovers
-\pause
-\item in $\mathbb{R}^n$: compact = closed and bounded
-\end{itemize}
-\end{frame}
-
-
-\begin{frame}{Open covers}
-\begin{defn}
-A \textbf{open cover} of a set $A\subseteq\mathbb{R}^n$ is a family $\{U_i: i\in I\}$ of open sets with $A\subseteq \bigcup_{i\in I} U_i$.\\\pause
-A \textbf{subcover} is a family $\{U_j: j\in J\}$ with $J\subseteq I$ which is still covers $A$, ie. $A\subseteq \bigcup_{j\in J} U_j$.
-\end{defn}
-\pause
-\textbf{Examples:}
-\begin{itemize}
-\pause
-\item $\{\mathbb{R}\}$ is an open cover of the interval $(0,1]$
-\pause
-\item $\{(\frac{1}{n},\frac{n+1}{n}): n\in\mathbb{Z}_+\}$ is an open cover of $(0,1]$
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Lindel\"{o}f Covering Theorem}
-\begin{thm}
-Let $A\subseteq\mathbb{R}^n$ be a set and suppose $\{U_i: i\in I\}$ is an open covering of $A$.
-Then there exists a \emph{countable} subcover $\{U_j: j\in J\}.$
-\end{thm}
-\pause
-\begin{quest}
-Can we do better than this?
-\end{quest}
-\pause
-\begin{defn}
-A set $A\subseteq\mathbb{R}^n$ is called \textbf{compact} if every open cover of $A$ has a \emph{finite} subcover.
-\end{defn}
-\end{frame}
-
-\begin{frame}{Roadmap}
-\begin{defn}
-A set $A\subseteq\mathbb{R}^n$ is called \textbf{bounded} if there exists $\vec a\in\mathbb{R}^n$ and $r>0$ with $A\subseteq B(\vec a;r)$.
-\end{defn}
-\pause
-We wish to prove the \textbf{Heine-Borel Theorem} that closed and bounded sets are compact.
-\begin{enumerate}
-\pause
-\item We prove the Bolzano-Weierstrass Theorem
-\pause
-\item Then use Bolzano-Weierstrass to prove the Cantor Intersection Theorem
-\pause
-\item We use the Cantor Intersection Theorem to prove the Heine-Borel Theorem
-\end{enumerate}
-\end{frame}
-
-\begin{frame}{Bolzano-Weierstrass Theorem}
-\begin{thm}[Bolzano-Weierstrass Theorem]
-A bounded set $A\subseteq \mathbb{R}^n$ with infinitely many points will contain an accumulation point.
-\end{thm}
-\end{frame}
-
 
 \end{document}
 
