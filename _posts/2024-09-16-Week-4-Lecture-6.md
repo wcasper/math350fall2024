@@ -10,6 +10,9 @@ sets, ordered pairs and Cartesian products, relations and functions, one-to-one 
 ## Reading assignment
 * Apostol pp. 38-41
 
+## Practice problems
+* Apostol 2.3, 2.4, 2.7-2.9, 2.22
+
 ### Slides
 
 * [Link to slides](http://wcasper.github.io/math350fall2024/slides/lec06/lec06.pdf)
