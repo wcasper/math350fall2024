@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  7 OCT 2024 10:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  7 OCT 2024 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -972,13 +972,168 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 
 ] [26
 
-]
-Overfull \vbox (5.34032pt too high) detected at line 320
- []
-
-[27
+] [27
 
 ] [28
+
+] [29
+
+] [30
+
+] [31
+
+] [32
+
+] [33
+
+] [34
+
+] [35
+
+] [36
+
+] [37
+
+] [38
+
+]
+[39
+
+] [40
+
+] [41
+
+] [42
+
+] [43
+
+] [44
+
+] [45
+
+] [46
+
+] [47
+
+] [48
+
+] [49
+
+] [50
+
+] [51
+
+] [52
+
+] [53
+
+]
+[54
+
+] [55
+
+] [56
+
+] [57
+
+] [58
+
+] [59
+
+] [60
+
+] [61
+
+] [62
+
+] [63
+
+] [64
+
+] [65
+
+] [66
+
+] [67
+
+] [68
+
+]
+[69
+
+] [70
+
+] [71
+
+]
+Overfull \vbox (5.34032pt too high) detected at line 373
+ []
+
+[72
+
+]
+Overfull \vbox (5.34032pt too high) detected at line 373
+ []
+
+[73
+
+]
+Overfull \vbox (5.34032pt too high) detected at line 373
+ []
+
+[74
+
+]
+Overfull \vbox (5.34032pt too high) detected at line 373
+ []
+
+[75
+
+]
+Overfull \vbox (5.34032pt too high) detected at line 373
+ []
+
+[76
+
+]
+Overfull \vbox (5.34032pt too high) detected at line 373
+ []
+
+[77
+
+]
+Overfull \vbox (5.34032pt too high) detected at line 373
+ []
+
+[78
+
+]
+Overfull \vbox (5.34032pt too high) detected at line 373
+ []
+
+[79
+
+]
+Overfull \vbox (5.34032pt too high) detected at line 373
+ []
+
+[80
+
+] [81
+
+] [82
+
+] [83
+
+] [84
+
+] [85
+
+] [86
+
+] [87
+
+] [88
 
 ]
 \tf@nav=\write6
@@ -999,9 +1154,9 @@ Package rerunfilecheck Info: File `lec11.out' has not changed.
 (rerunfilecheck)             Checksum: 7E60659C31CB4BACFCFF0931F66FDBEA;284.
  ) 
 Here is how much of TeX's memory you used:
- 23467 strings out of 476182
- 452206 string characters out of 5796232
- 1950975 words of memory out of 5000000
+ 23587 strings out of 476182
+ 453346 string characters out of 5796232
+ 2025975 words of memory out of 5000000
  44905 multiletter control sequences out of 15000+600000
  588590 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1015,10 +1170,10 @@ msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
 xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1
 /urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8
 a.pfb>
-Output written on lec11.pdf (28 pages, 220805 bytes).
+Output written on lec11.pdf (88 pages, 496617 bytes).
 PDF statistics:
- 1427 PDF objects out of 1440 (max. 8388607)
- 1053 compressed objects within 11 object streams
- 59 named destinations out of 1000 (max. 500000)
- 1523 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4154 PDF objects out of 4296 (max. 8388607)
+ 3149 compressed objects within 32 object streams
+ 179 named destinations out of 1000 (max. 500000)
+ 4823 words of extra memory for PDF output out of 10000 (max. 10000000)
 
