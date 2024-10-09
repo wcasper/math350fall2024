@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  9 OCT 2024 11:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023 Gentoo Linux) (preloaded format=pdflatex 2024.8.31)  9 OCT 2024 13:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1023,7 +1023,7 @@ Package pdftex.def Info: fig/ball1.png  used on input line 200.
  [27
 
 ]
-<fig/ballinf.png, id=1055, 219.82124pt x 271.76532pt>
+<fig/ballinf.png, id=1057, 219.82124pt x 271.76532pt>
 File: fig/ballinf.png Graphic file (type png)
 <use fig/ballinf.png>
 Package pdftex.def Info: fig/ballinf.png  used on input line 214.
@@ -1053,7 +1053,7 @@ Package pdftex.def Info: fig/ballinf.png  used on input line 214.
  [31
 
 ]
-<fig/ballp.png, id=1178, 219.82124pt x 271.76532pt>
+<fig/ballp.png, id=1182, 219.82124pt x 271.76532pt>
 File: fig/ballp.png Graphic file (type png)
 <use fig/ballp.png>
 Package pdftex.def Info: fig/ballp.png  used on input line 228.
@@ -1233,41 +1233,30 @@ Package pdftex.def Info: fig/ballp.png  used on input line 228.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-Package rerunfilecheck Warning: File `lec12.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `lec12.out':
-(rerunfilecheck)             Before: 8BD25636BB54EC547F96664295BD1792;400
-(rerunfilecheck)             After:  15E792C27A9243C4F645D91D5A4DFB61;400.
+Package rerunfilecheck Info: File `lec12.out' has not changed.
+(rerunfilecheck)             Checksum: 15E792C27A9243C4F645D91D5A4DFB61;400.
  ) 
 Here is how much of TeX's memory you used:
- 23684 strings out of 476182
- 454274 string characters out of 5796232
- 2013975 words of memory out of 5000000
+ 23683 strings out of 476182
+ 454259 string characters out of 5796232
+ 2012975 words of memory out of 5000000
  44968 multiletter control sequences out of 15000+600000
  602322 words of font info for 97 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,19n,123p,408b,917s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-pdfTeX warning (dest): name{Outline0.1.2.26} has been referenced but does not e
-xist, replaced by a fixed one
-
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texm
-f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/u
-rw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.
-pfb>
-Output written on lec12.pdf (101 pages, 546201 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/te
+xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1
+/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8
+a.pfb>
+Output written on lec12.pdf (101 pages, 546606 bytes).
 PDF statistics:
- 4475 PDF objects out of 5155 (max. 8388607)
- 3520 compressed objects within 36 object streams
- 207 named destinations out of 1000 (max. 500000)
+ 4474 PDF objects out of 5155 (max. 8388607)
+ 3519 compressed objects within 36 object streams
+ 206 named destinations out of 1000 (max. 500000)
  4167 words of extra memory for PDF output out of 10000 (max. 10000000)
 
