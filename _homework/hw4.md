@@ -19,5 +19,5 @@ You will be graded based on *completion* of all of the assigned problems, along 
 
 ### Problems
 
-* 3.30, 3.39, 3.45
+* 3.30, 3.39, 3.45, 4.7
 
