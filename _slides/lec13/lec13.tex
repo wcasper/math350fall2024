@@ -328,7 +328,7 @@ Assume further that $L-M\neq 0$ and let $\epsilon = d(L,M)/2$.\\
 \pause
 Then there exists $N_1$ such that $d(x_n,L) < \epsilon$ for $n > N_1$.\\
 \pause
-Likewise, there exists $N_2$ such that $d(x_n,L) < \epsilon$ for $n > N_2$.\\
+Likewise, there exists $N_2$ such that $d(x_n,M) < \epsilon$ for $n > N_2$.\\
 \pause
 Then for $n>\max\{N_1,N_2\}$,  the triangle inequality says
 \pause
@@ -337,90 +337,6 @@ $$d(L,M) \leq d(L,x_n) + d(x_n,M) < 2\epsilon = d(L,M).$$
 This is a contradiction.
 \end{proof}
 \end{frame}
-
-\begin{frame}{Existence of limits}
-\begin{thm}
-If a sequence $\{x_n\}$ in a metric space $(M,d)$ converges to a value $L\in M$, then the range
-$$X = \{x_1,x_2,\dots\}\subseteq M$$
-is a bounded set and $L$ is an adherent point of $X$.
-\end{thm}
-\pause
-When the range of a sequence is bounded, we call the sequence $\{x_n\}$ bounded.
-\end{frame}
-
-\begin{frame}{Challenge!}
-Try to prove the previous theorem.
-\end{frame}
-
-\begin{frame}{Existence of limits}
-Sort of a converse of the previous theorem.
-\pause
-\begin{thm}
-If $S$ is a subset of a metric space $(M,d)$ and $L\in M$ is an adherent point of $S$, then there exists a sequence $\{x_n\}$ of elements of $S$ which converges to $L$.
-\end{thm}
-\end{frame}
-
-\begin{frame}{Existence of limits}
-Recall a \textbf{subsequence} of a sequence $\{x_n\}$ is a sequence of the form $\{x_{k(n)}\}$, for $k(1) < k(2) < \dots$ positive integers.
-\pause
-\begin{thm}
-A sequence $\{x_n\}$ in a metric space $(M,d)$ converges to a value $L\in M$ if and only if every subsequence $\{x_{k(n)}\}$ also converges to $L$.
-\end{thm}
-\end{frame}
-
-\begin{frame}{Challenge!}
-Try to prove the previous theorem.
-\end{frame}
-
-\begin{frame}{Monotone sequences}
-\begin{defn}
-\pause
-A sequence $\{x_n\}$ of real numbers is called \textbf{increasing} or \textbf{monotone increasing} if $x_n\leq x_{n+1}$ for all $n$.\\
-\pause
-It is called \textbf{strictly increasing} if $x_n < x_{n+1}$ for all $n$.\\
-\pause
-A sequence $\{x_n\}$ of real numbers is called \textbf{decreasing} or \textbf{monotone decreasing} if $x_n\geq x_{n+1}$ for all $n$.\\
-\pause
-It is called \textbf{strictly decreasing} if $x_n > x_{n+1}$ for all $n$.\\
-\pause
-In any of these cases, we call the sequence \textbf{monotone}.
-\end{defn}
-\end{frame}
-
-\begin{frame}{Monotone sequences}
-Bounded monotone sequences always converge (with Euclidean metric)!
-\pause
-\begin{thm}[Monotone convergence theorem]
-\pause
-Consider the metric space formed by $\mathbb{R}$ with Euclidean distance.\\
-\pause
-A monotone increasing sequence $\{x_n\}$ of real numbers which is bounded above converges to $L = \sup\{x_1,x_2,\dots\}$.\\
-\pause
-A monotone decreasing sequence $\{x_n\}$ which is bounded below converges to $L = \inf\{x_1,x_2,\dots\}$.
-\end{thm}
-\end{frame}
-
-\begin{frame}{Monotone sequences}
-\begin{proof}
-\pause
-Suppose that $\{x_n\}$ is a monotone increasing sequence which is bounded above and let $X = \{x_1,x_2,\dots\}$.
-\pause
-Then by the Completeness Axiom $L=\sup X$ exists.\\
-\pause
-Let $\epsilon > 0$.\\
-\pause
-Then $L-\epsilon$ is not a supremum of $X$, so there exists $x_N\in X$ such that $x_N > L-\epsilon$.\\
-\pause
-Since the sequence is increasing, for any $n >N$, we have that $L-\epsilon < x_N \leq x_n < L$.\\
-\pause
-It follows that
-$$d(x_n,L) = |x_n-L| = L-x_n < \epsilon.$$
-\pause
-Since $\epsilon > 0$ was arbitrary, this proves $x_n$ converges to $L$.
-\end{proof}
-\end{frame}
-
-
 
 
 \end{document}
