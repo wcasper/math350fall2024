@@ -49,7 +49,7 @@ a) Write down the definition of an adherent point and an accumulation point of a
 
 b) Prove that $$0$$ is an accumulation point of the set
 
-$$S = \{x\in M: 0 < x < 1,\ \ \text{$x$ is irrational}.$$
+$$S = \{x\in M: 0 < x < 1,\ \ \text{$x$ is irrational}\}.$$
 
 ## Problem 5
 
