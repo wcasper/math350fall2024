@@ -120,7 +120,7 @@
 % - Talk about 30s to 2min per frame. So there should be between about
 %   15 and 30 frames, all told.
 
-\section{Real Analysis Lecture 7}
+\section{Real Analysis Lecture 8}
 
 \subsection{Open Balls and Open Sets}
 
@@ -243,108 +243,6 @@ Thus $\vec x$ is an interior point of $\bigcup_{i\in I} U_i$.\\
 \pause
 Since $\vec x$ is arbitrary, this proves that $\bigcup_{i\in I} U_i$ is open.
 \end{proof}
-\end{frame}
-
-\begin{frame}{Finite intersections of open sets are open}
-\begin{thm}[Open Intersection Theorem]
-Suppose that $U_1,U_2,\dots,U_n$ are open sets.
-Then $\bigcap_{i=1}^n U_i$ is open.
-\end{thm}
-\pause
-\begin{proof}
-\pause
-Suppose that $\vec x\in \bigcap_{i=1}^n U_i$.\\
-\pause
-Then for all $i$, $\vec x\in U_i$.\\
-\pause
-Since $U_i$ is open, this means $\vec x$ is an interior point of $U_i$.\\
-\pause
-Therefore there exists $r_i>0$ such that $B(\vec x; r_i)\subseteq U_i$.\\
-\pause
-Take $r = \min\{r_i: 1\leq i \leq n\}$.\\
-\pause
-This means $B(\vec x; r)\subseteq B(\vec x; r_i)\subseteq U_i$ for all $i$.\\
-\pause
-Therefore $B(\vec x; r)\subseteq \bigcap_{i=1}^n U_i$.\\
-\pause
-Thus $\vec x$ is an interior point of $\bigcap_{i=1}^n U_i$.\\
-\pause
-Since $\vec x$ is arbitrary, this proves that $\bigcap_{i=1}^n U_i$ is open.
-\end{proof}
-\end{frame}
-
-\begin{frame}{Challenge}
-\begin{prob}
-Show that the infinite intersection
-$$\bigcap_{n=1}^\infty (-\frac{1}{n},\frac{1}{n})$$
-is not open.
-\end{prob}
-\end{frame}
-
-\begin{frame}{Component intervals}
-Let $U\subseteq \mathbb{R}$ be open.
-\pause
-\begin{defn}
-A \textbf{component interval} of $U$ is an interval $I$ with $I\subseteq U$ and with the property that if $J$ is an interval and $I\subseteq J$, then $J\nsubseteq U$.
-\end{defn}
-\begin{itemize}
-\pause
-\item $(0,1)$ is a component interval of $\mathbb{R}\diff \{0,1,2,3\}$
-\pause
-\item $(-\infty,0)$ is also a component interval of $\mathbb{R}\diff \{0,1,2,3\}$
-\pause
-\item we will show all open sets of $\mathbb{R}$ are made of component intervals!
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Component intervals}
-\begin{lemma}
-If $I_1$ and $I_2$ are two component intervals of an open subset $U\subseteq\mathbb{R}$, then $I_1=I_2$ or $I_1\cap I_2 = \varnothing$.
-\end{lemma}
-\pause
-\begin{proof}
-\pause
-Suppose that $I_1\cap I_2 \neq \varnothing$.\\
-\pause
-Then $J := I_1\cup I_2$ is an interval.\\
-\pause
-Also $I_1\subseteq U$ and $I_2\subseteq U$, so $J\subseteq U$.\\
-\pause
-Since $I_i$ is a component interval and $I_i\subseteq J\subseteq U$, we have $I_i = J$.\\
-\pause
-In particular $I_1 = J = I_2$.
-\end{proof}
-\end{frame}
-
-\begin{frame}{Component intervals}
-\begin{thm}[Apostol 3.10]
-If $U\subseteq\mathbb{R}$ is open and $x\in U$, then there is a unique component interval of $U$ containing $x$.
-\end{thm}
-\pause
-\begin{proof}
-Uniqueness follows from previous Lemma, so we only need existence.\\
-\pause
-Suppose that $x\in U$ and consider
-$$A = \{a: (a,x)\subseteq S\},\quad\text{and}\quad B = \{b: (x,b)\subseteq S\}$$
-\pause
-If $A$ is not bounded below, let $a=-\infty$.  Otherwise, let $a = \inf (A)$.\\
-\pause
-If $B$ is not bounded above, let $b=\infty$.  Otherwise, let $b = \sup (B)$.\\
-\pause
-Claim: $(a,b)$ is a component interval of $U$ containing $x$.
-\end{proof}
-\end{frame}
-
-\begin{frame}{Challenge}
-\begin{prob}
-Prove that $(a,b)$ is a component interval of $U$.
-\end{prob}
-\end{frame}
-
-\begin{frame}{Open subsets of $\mathbb{R}$}
-\begin{thm}[Representation Theorem for Open Intervals in $\mathbb{R}$]
-If $U\subseteq\mathbb{R}$ is open, then $U$ is the union of a countable family of disjoint open intervals.
-\end{thm}
 \end{frame}
 
 
