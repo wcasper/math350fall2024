@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  12 NOV 2024 20:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  12 NOV 2024 20:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1309,8 +1309,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
  (./lec19.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 268.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 268.
-Package rerunfilecheck Info: File `lec19.out' has not changed.
-(rerunfilecheck)             Checksum: DAFB4FC69BF2674E92DC706976929A44;123.
+
+
+Package rerunfilecheck Warning: File `lec19.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `lec19.out':
+(rerunfilecheck)             Before: DAFB4FC69BF2674E92DC706976929A44;123
+(rerunfilecheck)             After:  2833CE26D1E2EE6E498142340F2138EF;123.
  ) 
 Here is how much of TeX's memory you used:
  18325 strings out of 494847
