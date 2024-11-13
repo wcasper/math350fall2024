@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  28 OCT 2024 11:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  28 OCT 2024 13:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1471,10 +1471,10 @@ Package rerunfilecheck Info: File `lec16.out' has not changed.
 (rerunfilecheck)             Checksum: 17C9658CFF8D38D98DC5273C774B2754;187.
  ) 
 Here is how much of TeX's memory you used:
- 18477 strings out of 494847
- 341860 string characters out of 6179079
+ 18487 strings out of 494847
+ 341940 string characters out of 6179079
  420624 words of memory out of 5000000
- 21170 multiletter control sequences out of 15000+600000
+ 21180 multiletter control sequences out of 15000+600000
  52100 words of font info for 77 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  56i,19n,65p,800b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1489,7 +1489,7 @@ ts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msbm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhv
 b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on lec16.pdf (85 pages, 321640 bytes).
+Output written on lec16.pdf (85 pages, 322040 bytes).
 PDF statistics:
  2643 PDF objects out of 2984 (max. 8388607)
  2502 compressed objects within 26 object streams
