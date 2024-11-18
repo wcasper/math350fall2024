@@ -21,11 +21,11 @@ c) In Euclidean space $$\mathbb{R}^n$$, every Cauchy sequence converges.
 
 d) A function $$f: [0,1]\rightarrow \mathbb{R}$$ must have an absolute maximum.
 
-e) If $$f: \mathbb{R}\rightarrow\mathbb{R}$$ is a continuous funtion, then the image $$f((0,1)) = \{f(t): 0 < t < 1\}$$ must be open.
+e) If $$f: \mathbb{R}\rightarrow\mathbb{R}$$ is a continuous function, then the image $$f((0,1)) = \{f(t): 0 < t < 1\}$$ must be open.
 
 ## Problem 2
 
-a) Let $$(S,d_S)$$ and $$(T,d_T)$$ be metric spaces and $$A\subseteq S$$.  If $$a\in S$$ is accumulation point of $$A$$ and $$f: A\rightarrow T$$ is a function, write the definition of $$\lim_{x\rightarrow A} f(x) = L$$.
+a) Let $$(S,d_S)$$ and $$(T,d_T)$$ be metric spaces and $$A\subseteq S$$.  If $$a\in S$$ is accumulation point of $$A$$ and $$f: A\rightarrow T$$ is a function, write the definition of $$\lim_{x\rightarrow a} f(x) = L$$.
 
 b) Let $$f: \mathbb{R}^2\rightarrow\mathbb{R}$$ be the function defined by
 
@@ -70,14 +70,14 @@ is continuous at the point $$x=0$$.
 
 ## Problem 7
 
-Let $$S=\mathbb{R}$$ and $$d_S: S\times S\rightarrow S$$ be the discrete metric on $$S$$, and let $$T=\mathbb{R}$$ with $$d_T: T\times T\rightarrow T$$ the Euclidean metric.
+Let $$S=\mathbb{R}$$ and $$d_S: S\times S\rightarrow \mathbb{R}$$ be the discrete metric on $$S$$, and let $$T=\mathbb{R}$$ with $$d_T: T\times T\rightarrow \mathbb{R}$$ the Euclidean metric.
 
 * (a) Prove that every subset of $$S$$ is open.
 * (b) Prove that *any* function $$f: S\rightarrow T$$ is continuous.
 
 ## Problem 8
 
-Let $$S=\mathbb{R}$$ and $$d_S: S\times S\rightarrow S$$ be the discrete metric on $$S$$, and let $$T=\mathbb{R}$$ with $$d_T: T\times T\rightarrow T$$ the Euclidean metric.
+Let $$S=\mathbb{R}$$ and $$d_S: S\times S\rightarrow \mathbb{R}$$ be the discrete metric on $$S$$, and let $$T=\mathbb{R}$$ with $$d_T: T\times T\rightarrow  \mathbb{R}$$ the Euclidean metric.
 
 * (a) Write down the definition of a set being connected.
 * (b) Prove that the only connected subsets of $$S$$ are singleton sets.
