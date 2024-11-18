@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  18 NOV 2024 09:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  18 NOV 2024 11:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1314,19 +1314,25 @@ n/10 f\T1/phv/m/sl/10 f\OT1/cmss/m/n/10 (\T1/phv/m/sl/10 x\OT1/cmss/m/n/10 ) :
 
 [32
 
-]
-Overfull \hbox (3.00497pt too wide) detected at line 268
-\T1/phv/m/sl/10 m[]\OT1/cmss/m/n/10 (\T1/phv/m/sl/10 f\OT1/cmss/m/n/10 ) = []\O
-MS/cmsy/m/n/10 f\T1/phv/m/sl/10 f\OT1/cmss/m/n/10 (\T1/phv/m/sl/10 x\OT1/cmss/m
-/n/10 ) : \T1/phv/m/sl/10 x[] \OMS/cmsy/m/n/10 ^^T \T1/phv/m/sl/10 x \OMS/cmsy/
-m/n/10 ^^T \T1/phv/m/sl/10 x[]\OMS/cmsy/m/n/10 g\OML/cmm/m/it/10 ;   \T1/phv/m/
-sl/10 M[]\OT1/cmss/m/n/10 (\T1/phv/m/sl/10 f\OT1/cmss/m/n/10 ) = []\OMS/cmsy/m/
-n/10 f\T1/phv/m/sl/10 f\OT1/cmss/m/n/10 (\T1/phv/m/sl/10 x\OT1/cmss/m/n/10 ) : 
-\T1/phv/m/sl/10 x[] \OMS/cmsy/m/n/10 ^^T \T1/phv/m/sl/10 x \OMS/cmsy/m/n/10 ^^T
- \T1/phv/m/sl/10 x[]\OMS/cmsy/m/n/10 g\OML/cmm/m/it/10 :
- []
+] [33
 
-[33
+] [34
+
+] [35
+
+] [36
+
+] [37
+
+] [38
+
+] [39
+
+] [40
+
+] [41
+
+] [42
 
 ]
 \tf@nav=\write6
@@ -1338,19 +1344,19 @@ n/10 f\T1/phv/m/sl/10 f\OT1/cmss/m/n/10 (\T1/phv/m/sl/10 x\OT1/cmss/m/n/10 ) :
 \tf@snm=\write8
 \openout8 = `lec21.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 270.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 270.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
  (./lec21.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 270.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 270.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
 Package rerunfilecheck Info: File `lec21.out' has not changed.
 (rerunfilecheck)             Checksum: C7767152B617A177EE65FA453EF1DC64;204.
  ) 
 Here is how much of TeX's memory you used:
- 18358 strings out of 494847
- 340586 string characters out of 6179079
- 418624 words of memory out of 5000000
- 21156 multiletter control sequences out of 15000+600000
+ 18380 strings out of 494847
+ 340789 string characters out of 6179079
+ 422624 words of memory out of 5000000
+ 21160 multiletter control sequences out of 15000+600000
  51009 words of font info for 76 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  56i,19n,65p,800b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1366,10 +1372,10 @@ msy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
 m10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on lec21.pdf (33 pages, 181137 bytes).
+Output written on lec21.pdf (42 pages, 208374 bytes).
 PDF statistics:
- 1092 PDF objects out of 1200 (max. 8388607)
- 1017 compressed objects within 11 object streams
- 70 named destinations out of 1000 (max. 500000)
+ 1362 PDF objects out of 1440 (max. 8388607)
+ 1276 compressed objects within 13 object streams
+ 88 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
