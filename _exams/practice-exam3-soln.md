@@ -146,7 +146,7 @@ Here $$S(P,f,\alpha,\{t_k\})$$ is the Riemann-Stieltjes sum
 
 $$S(P,f,\alpha,\{t_k\}) = \sum_{k=1}^n f(t_k) \Delta\alpha_k(P)$$
 
-b) For example $$f(x) = 1/x$$ and $$\alpha(x) = x$$ on $$[0,1]$$.
+b) For example $$f(x) = 1/x$$ with $$f(0)=0$$ and $$\alpha(x) = x$$ on $$[0,1]$$.
 
 c) Define $$f(x) = 1$$.  Let $$\epsilon>0$$ and choose the partition $$P_\epsilon = \{a,b\}$$.
 Then for any refinement $$P = \{x_0=a,x_1,\dots, x_n=b\}$$ of $$P_\epsilon$$, we have that
