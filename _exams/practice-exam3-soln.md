@@ -216,7 +216,7 @@ Let $$S=\mathbb{R}$$ and $$d_S: S\times S\rightarrow S$$ be the discrete metric 
 
 a) Let $$A\subseteq S$$ be any subset.  Then for $$a\in A$$, the ball $$B_S(a,1) = \{a\}\subseteq A$$, making $$a$$ an interior point of $$A$$.  It follows that every point in $$A$$ an interior point of $$A$$, making $$A$$ an open set.  Thus every subset is open.
 
-b) A function is continuous if and only if the preimage of every open set is open.  Let $$U\subseteq T$$ be open.  Then since every subset of $$S$$ is open, the preimage $$f^{-1}(U)\subsetq S$$ is open.  Hence $$f$$ is continuous.
+b) A function is continuous if and only if the preimage of every open set is open.  Let $$U\subseteq T$$ be open.  Then since every subset of $$S$$ is open, the preimage $$f^{-1}(U)\subseteq S$$ is open.  Hence $$f$$ is continuous.
 
 ## Problem 8
 
