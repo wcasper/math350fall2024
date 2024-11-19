@@ -187,10 +187,6 @@ and moreover $$f^*(a) = f'(a)$$ and $$g^*(a) = g'(a)$$.  Therefore
 $$\begin{align}
 h(x)-h(a)
   & = \frac{f(x)}{g(x)}-\frac{f(a)}{g(a)}}\\
-  & = \frac{f(x)g(a)-f(a)g(x)}{g(x)g(a)}\\
-  & = \frac{f(x)g(a)-f(x)g(x)+f(x)g(x)-f(a)g(x)}{g(x)g(a)}\\
-  & = \frac{-f(x)(g(x)-g(a))+(f(x)-f(a))g(x)}{g(x)g(a)}\\
-  & = (x-a)\frac{-f(x)g^*(x)+f^*(x)g(x)}{g(x)g(a)}.
 \end{align}$$
 
 The function
