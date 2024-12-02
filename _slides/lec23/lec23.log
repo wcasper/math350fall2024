@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  2 DEC 2024 11:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.16)  2 DEC 2024 12:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1333,10 +1333,10 @@ Package rerunfilecheck Info: File `lec23.out' has not changed.
 (rerunfilecheck)             Checksum: D61F9A11E08D5CDE4710DF9B412813C2;135.
  ) 
 Here is how much of TeX's memory you used:
- 18337 strings out of 494847
- 340167 string characters out of 6179079
+ 18347 strings out of 494847
+ 340247 string characters out of 6179079
  423624 words of memory out of 5000000
- 21137 multiletter control sequences out of 15000+600000
+ 21147 multiletter control sequences out of 15000+600000
  54597 words of font info for 79 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  56i,19n,64p,800b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1356,7 +1356,7 @@ xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/helvetic/uhvro8a.pfb>
-Output written on lec23.pdf (32 pages, 217144 bytes).
+Output written on lec23.pdf (32 pages, 217336 bytes).
 PDF statistics:
  1037 PDF objects out of 1200 (max. 8388607)
  961 compressed objects within 10 object streams
