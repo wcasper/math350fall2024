@@ -21,3 +21,19 @@ You will be graded based on *completion* of all of the assigned problems, along 
 
 * 5.14,5.18, 7.2, 7.5, 7.12, 7.26
 
+### Additional problems (don't turn in)
+
+* Extra problem 1
+Prove that the function
+
+$$f(x) =\left\lbrace\begin{array}{cc}
+x^2\sin(1/x), & x\neq 0\\
+0, & x = 0\\
+\end{array}\right.$$
+
+is differentiable for all values of $$x$$, but that the derivative $$f'(x)$$ is not continuous at $$x=0$$.
+
+* Extra problem 2
+Calculate the lower and upper Stieltjes integrals of $$f(x) = x^4$$ with respect to $$\alpha(x)=x^2$$ on the interval $$[0,1]$$.
+
+
