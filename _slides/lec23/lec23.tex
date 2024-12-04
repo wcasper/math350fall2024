@@ -192,7 +192,7 @@ $$\underline{\int} fd\alpha = \sup\{\underline{S}(P,f,\alpha): P\ \text{partitio
 \begin{frame}{Riemann's criterion}
 \begin{defn}
 Let $f$ and $\alpha$ be real-valued functions on $[a,b]$.\\
-Then $f$ \textbf{satisfies Riemann's criterion} with respect to $\alpha$ on $[a,b]$ if for all $\epsilon > 0$ there exists a partition $P_\epsilon$ such that
+Then $f$ \textbf{satisfies Riemann's criterion} with respect to $\alpha$ on $[a,b]$ if for all $\epsilon > 0$ there exists a partition $P_\epsilon$ such that for all refinements $P$ of $P_\epsilon$
 $$0\leq \overline S(P,f,\alpha)-\underline S(P,f,\alpha) < \epsilon.$$
 \end{defn}
 \pause
@@ -269,9 +269,6 @@ $$F'(x) = f(x)\alpha'(x).$$
 \end{frame}
 
 \begin{frame}{Fundamental Theorem of Calculus II}
-Assume that $f$ is integrable with respect to $\alpha$ on $[a,b]$ and set\\
-\pause
-$$F(x) = \int_a^x fd\alpha,\quad x\in [a,b].$$
 \begin{thm}[FTC II]
 Suppose that $f$ is Riemann integrable on $[a,b]$.\\
 Also suppose $g$ is continuous on $[a,b]$ with $g'(x) = f(x)$ for all $x\in (a,b)$.\\
