@@ -23,8 +23,8 @@ Prove that if $$M$$ has a finite, dense subset then $$M$$ itself must be a finit
 Consider the function $$f: [0,1]\rightarrow\mathbb{R}$$ defined by
 
 $$f(x) = \left\lbrace\begin{array}{cc}
-1 & x = 1/n,\ \text{for some positive integer}\ n\\
-0 & \text{otherwise}
+1, & x = 1/n\ \text{for some positive integer}\ n\\
+0, & \text{otherwise}
 \end{array}\right.$$
 
 Determine (with proof) whether or not $$f$$ is Riemann integrable on the interval $$[0,1]$$.
