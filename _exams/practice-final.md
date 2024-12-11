@@ -20,7 +20,7 @@ Let $$(S,d_S)$$ and $$(T,d_T)$$ be metric spaces and suppose $$f: S\rightarrow T
 
 * (a) Prove that if $$K\subseteq S$$ is compact, then $$f(K)$$ is compact.
 * (b) Prove that if $$S$$ is compact, then for every closed set $$C\subseteq S$$ the image $$f(C)$$ is closed.
-* (c) Give an example of a non-compact $$S$$ and closed subset $$C\subseteq S$$ with $$f(C)$ not closed.
+* (c) Give an example of a non-compact $$S$$ and closed subset $$C\subseteq S$$ with $$f(C)$$ not closed.
 
 ## Problem 3
 
