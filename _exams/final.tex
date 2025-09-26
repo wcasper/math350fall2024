@@ -1,0 +1,222 @@
+% Exam Template for UMTYMP and Math Department courses
+%
+% Using Philip Hirschhorn's exam.cls: http://www-math.mit.edu/~psh/#ExamCls
+%
+% run pdflatex on a finished exam at least three times to do the grading table on front page.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% These lines can probably stay unchanged, although you can remove the last
+% two packages if you're not making pictures with tikz.
+\documentclass[11pt]{exam}
+\RequirePackage{amssymb, amsfonts, amsmath, latexsym, verbatim, xspace, setspace}
+\RequirePackage{tikz, pgflibraryplotmarks}
+
+% By default LaTeX uses large margins.  This doesn't work well on exams; problems
+% end up in the "middle" of the page, reducing the amount of space for students
+% to work on them.
+\usepackage[margin=1in]{geometry}
+\usepackage{enumerate}
+\usepackage{amsthm}
+
+\theoremstyle{definition}
+\newtheorem{soln}{Solution}
+
+% Here's where you edit the Class, Exam, Date, etc.
+\newcommand{\class}{Math 350 Section 1}
+\newcommand{\term}{Fall 2024}
+\newcommand{\examnum}{Final Exam}
+\newcommand{\examdate}{December 16, 2024}
+\newcommand{\timelimit}{1 Hour 50 Minutes}
+\newcommand{\ol}[1]{\overline{#1}}
+
+% For an exam, single spacing is most appropriate
+\singlespacing
+% \onehalfspacing
+% \doublespacing
+
+% For an exam, we generally want to turn off paragraph indentation
+\parindent 0ex
+
+\begin{document} 
+
+% These commands set up the running header on the top of the exam pages
+\pagestyle{head}
+\firstpageheader{}{}{}
+\runningheader{\class}{\examnum\ - Page \thepage\ of \numpages}{\examdate}
+\runningheadrule
+
+\begin{flushright}
+\begin{tabular}{p{2.8in} r l}
+\textbf{\class} & \textbf{Name (Print):} & \makebox[2in]{\hrulefill}\\
+\textbf{\term} &&\\
+\textbf{\examnum} & \textbf{Student ID:}&\makebox[2in]{\hrulefill}\\
+\textbf{\examdate} &&\\
+\textbf{Time Limit: \timelimit} % & Teaching Assistant & \makebox[2in]{\hrulefill}
+\end{tabular}\\
+\end{flushright}
+\rule[1ex]{\textwidth}{.1pt}
+
+
+This exam contains \numpages\ pages (including this cover page) and
+\numquestions\ problems.  Check to see if any pages are missing.  Enter
+all requested information on the top of this page, and put your initials
+on the top of every page, in case the pages become separated.\\
+
+You may \textit{not} use your books or notes on this exam.
+
+You are required to show your work on each problem on this exam.  The following rules apply:\\
+
+\begin{minipage}[t]{3.7in}
+\vspace{0pt}
+\begin{itemize}
+
+%\item \textbf{If you use a ``fundamental theorem'' you must indicate this} and explain
+%why the theorem may be applied.
+
+\item \textbf{Organize your work}, in a reasonably neat and coherent way, in
+the space provided. Work scattered all over the page without a clear ordering will 
+receive very little credit.  
+
+\item \textbf{Mysterious or unsupported answers will not receive full
+credit}.  A correct answer, unsupported by calculations, explanation,
+or algebraic work will receive no credit; an incorrect answer supported
+by substantially correct calculations and explanations might still receive
+partial credit.  This especially applies to limit calculations.
+
+\item If you need more space, use the back of the pages; clearly indicate when you have done this.
+
+\item \textbf{Box Your Answer} where appropriate, in order to clearly indicate what you consider the answer to the question to be.
+
+\item \textbf{Default metric}: unless otherwise stated, the set $\mathbb{R}$ or $\mathbb{R}^n$ will be considered a metric space with the Euclidean metric
+\end{itemize}
+
+Do not write in the table to the right.
+\end{minipage}
+\hfill
+\begin{minipage}[t]{2.3in}
+\vspace{0pt}
+%\cellwidth{3em}
+\gradetablestretch{2}
+\vqword{Problem}
+\addpoints % required here by exam.cls, even though questions haven't started yet.	
+\gradetable[v]%[pages]  % Use [pages] to have grading table by page instead of question
+
+\end{minipage}
+\newpage % End of cover page
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% See http://www-math.mit.edu/~psh/#ExamCls for full documentation, but the questions
+% below give an idea of how to write questions [with parts] and have the points
+% tracked automatically on the cover page.
+%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{questions}
+
+\addpoints
+
+\question[10]\mbox{}
+\textbf{TRUE or FALSE!}  Write  TRUE if the statement is true.  Otherwise, write FALSE.  Your response should be in ALL CAPS.  No justification is required.
+\begin{enumerate}[(a)]
+\item Every subset of $\mathbb{R}$ with the discrete metric is open
+\vspace{1.2in}
+\item The function $f(x) = e^x+x$ has an $x$-intercept
+\vspace{1.2in}
+\item If $f(x)$ is differentiable at $x=0$, then so is $f(x^2)$
+\vspace{1.2in}
+\item The set of all irrational numbers is uncountable
+\vspace{1.2in}
+\item In any metric space, compact sets must be closed
+\vspace{1.2in}
+\end{enumerate}
+
+\newpage
+\question[10]\mbox{}
+Let $(M,d)$ be a metric space and $K\subseteq M$.
+\begin{enumerate}[(a)]
+\item Write the definition of $K$ being compact
+\vspace{2in}
+\item Write the definition of $K$ being bounded
+\vspace{2in}
+\item Prove that if $K$ is not bounded, then it cannot be compact
+\end{enumerate}
+
+\newpage
+\question[10]\mbox{}
+In this problem, let $\alpha(x) = x$ and
+$$f(x) = \left\lbrace\begin{array}{cc}
+1, & x\neq 3\\
+5, & x =   3
+\end{array}\right.$$
+
+Carefully prove $f$ is integrable with respect to $\alpha$ on $[0,3]$ and determine the value of $\int_0^3 fd\alpha$
+
+\newpage
+\question[10]\mbox{}
+
+Consider the function
+$$f(x) = \left\lbrace\begin{array}{cc}
+x, & x\in \mathbb{Q}\\
+0, & x\notin \mathbb{Q}
+\end{array}\right.$$
+
+\begin{enumerate}[(a)]
+\item
+Prove that $f(x)$ is not continuous at $x=c$ for $c\neq 0$
+\vspace{3in}
+\item
+Prove that $f(x)$ is continuous at $x=0$
+\end{enumerate}
+
+\newpage
+\question[10]\mbox{}
+
+\begin{enumerate}[(a)]
+\item
+Carefully explain why there is no continuous, surjective function $f: [0,1]\rightarrow (0,1]$
+\vspace{2.5in}
+\item
+Carefully explain why there is no continuous, surjective function $f: [0,1]\rightarrow [0,1/2)\cup (1/2,1]$
+\vspace{2.5in}
+\item
+Show that there is a continuous, surjective function $f: (0,1]\rightarrow [0,1]$
+\end{enumerate}
+
+
+\newpage
+\question[10]\mbox{}
+Let $\{x_n\}$ be a monotone increasing sequence of real numbers.
+
+\begin{enumerate}[(a)]
+\item
+State the Completeness Axiom
+\vspace{2in}
+\item
+Prove that if $\{x_n\}$ is also bounded above, then it converges.
+\end{enumerate}
+
+
+
+\newpage
+\question[10]\mbox{}
+Suppose that $f(x)$ is a polynomial with roots at $x=1$, $x=2$, and $x=3$
+
+\begin{enumerate}[(a)]
+\item
+State the Mean Value Theorem
+\vspace{2in}
+\item
+Prove that $f'(x)$ has at least two different real roots
+\vspace{3.5in}
+\item
+Prove that $f''(x)$ has at least one real root
+\end{enumerate}
+
+
+\end{questions}
+
+\end{document}
+
